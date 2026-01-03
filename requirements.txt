@@ -1,0 +1,29 @@
+# Core dependencies for Intelligent Handwritten Math Recognition
+
+# Machine Learning
+torch>=2.0.0
+torchvision>=0.15.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+onnxscript>=0.1.0  # Required for ONNX export
+coremltools>=7.0  # For CoreML export (iOS/iPadOS/macOS)
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: Dataset download (choose one or both)
+# datasets>=2.14.0  # For Hugging Face downloads (recommended)
+# kaggle>=1.5.0  # For Kaggle downloads
+
+# Development tools (optional)
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0
+

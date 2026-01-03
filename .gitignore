@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# ONNX
+*.onnx
+
+# CoreML
+*.mlmodel
+*.mlpackage
+
+# Data
+data/
+*.h5
+*.hdf5
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+symbol_mapping.json
+checkpoints/
+models/
+exports/*.onnx
+exports/*.onnx.data
+exports/*.mlpackage/
+training.log
+

@@ -1,0 +1,4814 @@
+{
+  "1": {
+    "symbol_class_id": 1,
+    "symbol_name": "double right arrow",
+    "latex_candidates": [
+      {
+        "command": "\\implies",
+        "math_priority": 1.0,
+        "context": "logical implication",
+        "description": "Standard symbol for logical implication in mathematical logic"
+      },
+      {
+        "command": "\\Rightarrow",
+        "math_priority": 0.6,
+        "context": "general implication",
+        "description": "General double-line right arrow, less specific than \\implies"
+      },
+      {
+        "command": "\\rightarrow",
+        "math_priority": 0.3,
+        "context": "generic arrow or mapping",
+        "description": "Generic right arrow, can mean function mapping or general direction"
+      }
+    ]
+  },
+  "2": {
+    "symbol_class_id": 2,
+    "symbol_name": "double left-right arrow",
+    "latex_candidates": [
+      {
+        "command": "\\iff",
+        "math_priority": 1.0,
+        "context": "if and only if",
+        "description": "Standard symbol for logical equivalence (if and only if)"
+      },
+      {
+        "command": "\\Leftrightarrow",
+        "math_priority": 0.6,
+        "context": "general equivalence",
+        "description": "General double-line bidirectional arrow"
+      },
+      {
+        "command": "\\leftrightarrow",
+        "math_priority": 0.3,
+        "context": "generic bidirectional arrow",
+        "description": "Generic bidirectional arrow"
+      }
+    ]
+  },
+  "3": {
+    "symbol_class_id": 3,
+    "symbol_name": "right arrow",
+    "latex_candidates": [
+      {
+        "command": "\\rightarrow",
+        "math_priority": 0.8,
+        "context": "function mapping or limit",
+        "description": "Commonly used for function mappings f: A → B or limits"
+      },
+      {
+        "command": "\\to",
+        "math_priority": 0.7,
+        "context": "function mapping (shorthand)",
+        "description": "Shorthand for \\rightarrow, commonly used in function notation"
+      },
+      {
+        "command": "\\mapsto",
+        "math_priority": 0.9,
+        "context": "element mapping",
+        "description": "Maps to (element-wise), e.g., x ↦ f(x)"
+      }
+    ]
+  },
+  "4": {
+    "symbol_class_id": 4,
+    "symbol_name": "subset or equal",
+    "latex_candidates": [
+      {
+        "command": "\\subseteq",
+        "math_priority": 1.0,
+        "context": "subset or equal",
+        "description": "Standard symbol for subset or equal in set theory"
+      },
+      {
+        "command": "\\subset",
+        "math_priority": 0.7,
+        "context": "proper subset",
+        "description": "Proper subset (not equal)"
+      },
+      {
+        "command": "\\subseteqq",
+        "math_priority": 0.9,
+        "context": "subset or equal (variant)",
+        "description": "Variant of \\subseteq, less common"
+      }
+    ]
+  },
+  "5": {
+    "symbol_class_id": 5,
+    "symbol_name": "element of",
+    "latex_candidates": [
+      {
+        "command": "\\in",
+        "math_priority": 1.0,
+        "context": "set membership",
+        "description": "Standard symbol for set membership (element of)"
+      },
+      {
+        "command": "\\epsilon",
+        "math_priority": 0.2,
+        "context": "Greek letter epsilon",
+        "description": "Greek letter epsilon, visually similar but different meaning"
+      }
+    ]
+  },
+  "6": {
+    "symbol_class_id": 6,
+    "symbol_name": "union",
+    "latex_candidates": [
+      {
+        "command": "\\cup",
+        "math_priority": 1.0,
+        "context": "set union",
+        "description": "Standard symbol for set union"
+      },
+      {
+        "command": "\\bigcup",
+        "math_priority": 0.9,
+        "context": "big union",
+        "description": "Large union operator for indexed unions"
+      }
+    ]
+  },
+  "7": {
+    "symbol_class_id": 7,
+    "symbol_name": "intersection",
+    "latex_candidates": [
+      {
+        "command": "\\cap",
+        "math_priority": 1.0,
+        "context": "set intersection",
+        "description": "Standard symbol for set intersection"
+      },
+      {
+        "command": "\\bigcap",
+        "math_priority": 0.9,
+        "context": "big intersection",
+        "description": "Large intersection operator for indexed intersections"
+      }
+    ]
+  },
+  "8": {
+    "symbol_class_id": 8,
+    "symbol_name": "less than or equal",
+    "latex_candidates": [
+      {
+        "command": "\\leq",
+        "math_priority": 1.0,
+        "context": "less than or equal",
+        "description": "Standard mathematical symbol for less than or equal"
+      },
+      {
+        "command": "\\leqslant",
+        "math_priority": 0.8,
+        "context": "less than or equal (variant)",
+        "description": "Variant of \\leq, less common"
+      }
+    ]
+  },
+  "9": {
+    "symbol_class_id": 9,
+    "symbol_name": "greater than or equal",
+    "latex_candidates": [
+      {
+        "command": "\\geq",
+        "math_priority": 1.0,
+        "context": "greater than or equal",
+        "description": "Standard mathematical symbol for greater than or equal"
+      },
+      {
+        "command": "\\geqslant",
+        "math_priority": 0.8,
+        "context": "greater than or equal (variant)",
+        "description": "Variant of \\geq, less common"
+      }
+    ]
+  },
+  "10": {
+    "symbol_class_id": 10,
+    "symbol_name": "not equal",
+    "latex_candidates": [
+      {
+        "command": "\\neq",
+        "math_priority": 1.0,
+        "context": "not equal",
+        "description": "Standard mathematical symbol for not equal"
+      },
+      {
+        "command": "\\ne",
+        "math_priority": 0.9,
+        "context": "not equal (shorthand)",
+        "description": "Shorthand for \\neq"
+      }
+    ]
+  },
+  "11": {
+    "symbol_class_id": 11,
+    "symbol_name": "approximately equal",
+    "latex_candidates": [
+      {
+        "command": "\\approx",
+        "math_priority": 1.0,
+        "context": "approximately equal",
+        "description": "Standard symbol for approximately equal"
+      },
+      {
+        "command": "\\simeq",
+        "math_priority": 0.8,
+        "context": "asymptotically equal",
+        "description": "Asymptotically equal, used in asymptotic analysis"
+      },
+      {
+        "command": "\\cong",
+        "math_priority": 0.7,
+        "context": "congruent",
+        "description": "Congruent, used in geometry"
+      }
+    ]
+  },
+  "12": {
+    "symbol_class_id": 12,
+    "symbol_name": "for all",
+    "latex_candidates": [
+      {
+        "command": "\\forall",
+        "math_priority": 1.0,
+        "context": "universal quantifier",
+        "description": "Universal quantifier (for all) in mathematical logic"
+      }
+    ]
+  },
+  "13": {
+    "symbol_class_id": 13,
+    "symbol_name": "exists",
+    "latex_candidates": [
+      {
+        "command": "\\exists",
+        "math_priority": 1.0,
+        "context": "existential quantifier",
+        "description": "Existential quantifier (there exists) in mathematical logic"
+      }
+    ]
+  },
+  "14": {
+    "symbol_class_id": 14,
+    "symbol_name": "multiplication",
+    "latex_candidates": [
+      {
+        "command": "\\times",
+        "math_priority": 1.0,
+        "context": "multiplication or cross product",
+        "description": "Standard symbol for multiplication or cross product"
+      },
+      {
+        "command": "\\cdot",
+        "math_priority": 0.9,
+        "context": "dot product or scalar multiplication",
+        "description": "Dot product or scalar multiplication"
+      },
+      {
+        "command": "\\ast",
+        "math_priority": 0.5,
+        "context": "asterisk multiplication",
+        "description": "Asterisk multiplication, less common"
+      }
+    ]
+  },
+  "15": {
+    "symbol_class_id": 15,
+    "symbol_name": "division",
+    "latex_candidates": [
+      {
+        "command": "\\div",
+        "math_priority": 1.0,
+        "context": "division",
+        "description": "Standard symbol for division"
+      }
+    ]
+  },
+  "16": {
+    "symbol_class_id": 16,
+    "symbol_name": "plus minus",
+    "latex_candidates": [
+      {
+        "command": "\\pm",
+        "math_priority": 1.0,
+        "context": "plus or minus",
+        "description": "Standard symbol for plus or minus"
+      },
+      {
+        "command": "\\mp",
+        "math_priority": 0.9,
+        "context": "minus or plus",
+        "description": "Minus or plus (opposite of \\pm)"
+      }
+    ]
+  },
+  "17": {
+    "symbol_class_id": 17,
+    "symbol_name": "equivalent",
+    "latex_candidates": [
+      {
+        "command": "\\equiv",
+        "math_priority": 1.0,
+        "context": "equivalent or congruent",
+        "description": "Standard symbol for equivalence or congruence"
+      },
+      {
+        "command": "\\sim",
+        "math_priority": 0.7,
+        "context": "similar or asymptotically equivalent",
+        "description": "Similar or asymptotically equivalent"
+      }
+    ]
+  },
+  "18": {
+    "symbol_class_id": 18,
+    "symbol_name": "integral",
+    "latex_candidates": [
+      {
+        "command": "\\int",
+        "math_priority": 1.0,
+        "context": "integral",
+        "description": "Standard symbol for integral"
+      },
+      {
+        "command": "\\oint",
+        "math_priority": 0.9,
+        "context": "contour integral",
+        "description": "Contour integral (closed path integral)"
+      },
+      {
+        "command": "\\iint",
+        "math_priority": 0.8,
+        "context": "double integral",
+        "description": "Double integral"
+      }
+    ]
+  },
+  "19": {
+    "symbol_class_id": 19,
+    "symbol_name": "sum",
+    "latex_candidates": [
+      {
+        "command": "\\sum",
+        "math_priority": 1.0,
+        "context": "summation",
+        "description": "Standard symbol for summation"
+      },
+      {
+        "command": "\\Sigma",
+        "math_priority": 0.3,
+        "context": "Greek letter capital sigma",
+        "description": "Greek letter capital sigma, visually similar but different from \\sum"
+      }
+    ]
+  },
+  "20": {
+    "symbol_class_id": 20,
+    "symbol_name": "product",
+    "latex_candidates": [
+      {
+        "command": "\\prod",
+        "math_priority": 1.0,
+        "context": "product",
+        "description": "Standard symbol for product"
+      },
+      {
+        "command": "\\Pi",
+        "math_priority": 0.3,
+        "context": "Greek letter capital pi",
+        "description": "Greek letter capital pi, visually similar but different from \\prod"
+      }
+    ]
+  },
+  "31": {
+    "symbol_class_id": 31,
+    "symbol_name": "A",
+    "latex_candidates": [
+      {
+        "command": "A",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for A"
+      }
+    ]
+  },
+  "32": {
+    "symbol_class_id": 32,
+    "symbol_name": "B",
+    "latex_candidates": [
+      {
+        "command": "B",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for B"
+      }
+    ]
+  },
+  "33": {
+    "symbol_class_id": 33,
+    "symbol_name": "C",
+    "latex_candidates": [
+      {
+        "command": "C",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for C"
+      }
+    ]
+  },
+  "34": {
+    "symbol_class_id": 34,
+    "symbol_name": "D",
+    "latex_candidates": [
+      {
+        "command": "D",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for D"
+      }
+    ]
+  },
+  "35": {
+    "symbol_class_id": 35,
+    "symbol_name": "E",
+    "latex_candidates": [
+      {
+        "command": "E",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for E"
+      }
+    ]
+  },
+  "36": {
+    "symbol_class_id": 36,
+    "symbol_name": "F",
+    "latex_candidates": [
+      {
+        "command": "F",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for F"
+      }
+    ]
+  },
+  "37": {
+    "symbol_class_id": 37,
+    "symbol_name": "G",
+    "latex_candidates": [
+      {
+        "command": "G",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for G"
+      }
+    ]
+  },
+  "38": {
+    "symbol_class_id": 38,
+    "symbol_name": "H",
+    "latex_candidates": [
+      {
+        "command": "H",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for H"
+      }
+    ]
+  },
+  "39": {
+    "symbol_class_id": 39,
+    "symbol_name": "I",
+    "latex_candidates": [
+      {
+        "command": "I",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for I"
+      }
+    ]
+  },
+  "40": {
+    "symbol_class_id": 40,
+    "symbol_name": "J",
+    "latex_candidates": [
+      {
+        "command": "J",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for J"
+      }
+    ]
+  },
+  "41": {
+    "symbol_class_id": 41,
+    "symbol_name": "K",
+    "latex_candidates": [
+      {
+        "command": "K",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for K"
+      }
+    ]
+  },
+  "42": {
+    "symbol_class_id": 42,
+    "symbol_name": "L",
+    "latex_candidates": [
+      {
+        "command": "L",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for L"
+      }
+    ]
+  },
+  "43": {
+    "symbol_class_id": 43,
+    "symbol_name": "M",
+    "latex_candidates": [
+      {
+        "command": "M",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for M"
+      }
+    ]
+  },
+  "44": {
+    "symbol_class_id": 44,
+    "symbol_name": "N",
+    "latex_candidates": [
+      {
+        "command": "N",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for N"
+      }
+    ]
+  },
+  "45": {
+    "symbol_class_id": 45,
+    "symbol_name": "O",
+    "latex_candidates": [
+      {
+        "command": "O",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for O"
+      }
+    ]
+  },
+  "46": {
+    "symbol_class_id": 46,
+    "symbol_name": "P",
+    "latex_candidates": [
+      {
+        "command": "P",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for P"
+      }
+    ]
+  },
+  "47": {
+    "symbol_class_id": 47,
+    "symbol_name": "Q",
+    "latex_candidates": [
+      {
+        "command": "Q",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for Q"
+      }
+    ]
+  },
+  "48": {
+    "symbol_class_id": 48,
+    "symbol_name": "R",
+    "latex_candidates": [
+      {
+        "command": "R",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for R"
+      }
+    ]
+  },
+  "49": {
+    "symbol_class_id": 49,
+    "symbol_name": "S",
+    "latex_candidates": [
+      {
+        "command": "S",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for S"
+      }
+    ]
+  },
+  "50": {
+    "symbol_class_id": 50,
+    "symbol_name": "T",
+    "latex_candidates": [
+      {
+        "command": "T",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for T"
+      }
+    ]
+  },
+  "51": {
+    "symbol_class_id": 51,
+    "symbol_name": "U",
+    "latex_candidates": [
+      {
+        "command": "U",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for U"
+      }
+    ]
+  },
+  "52": {
+    "symbol_class_id": 52,
+    "symbol_name": "V",
+    "latex_candidates": [
+      {
+        "command": "V",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for V"
+      }
+    ]
+  },
+  "53": {
+    "symbol_class_id": 53,
+    "symbol_name": "W",
+    "latex_candidates": [
+      {
+        "command": "W",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for W"
+      }
+    ]
+  },
+  "54": {
+    "symbol_class_id": 54,
+    "symbol_name": "X",
+    "latex_candidates": [
+      {
+        "command": "X",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for X"
+      }
+    ]
+  },
+  "55": {
+    "symbol_class_id": 55,
+    "symbol_name": "Y",
+    "latex_candidates": [
+      {
+        "command": "Y",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for Y"
+      }
+    ]
+  },
+  "56": {
+    "symbol_class_id": 56,
+    "symbol_name": "Z",
+    "latex_candidates": [
+      {
+        "command": "Z",
+        "math_priority": 1.0,
+        "context": "capital letter",
+        "description": "Primary LaTeX representation for Z"
+      }
+    ]
+  },
+  "59": {
+    "symbol_class_id": 59,
+    "symbol_name": "rightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\rightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rightarrow",
+        "description": "Primary LaTeX representation for rightarrow"
+      }
+    ]
+  },
+  "70": {
+    "symbol_class_id": 70,
+    "symbol_name": "0",
+    "latex_candidates": [
+      {
+        "command": "0",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 0"
+      }
+    ]
+  },
+  "71": {
+    "symbol_class_id": 71,
+    "symbol_name": "1",
+    "latex_candidates": [
+      {
+        "command": "1",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 1"
+      }
+    ]
+  },
+  "72": {
+    "symbol_class_id": 72,
+    "symbol_name": "2",
+    "latex_candidates": [
+      {
+        "command": "2",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 2"
+      }
+    ]
+  },
+  "73": {
+    "symbol_class_id": 73,
+    "symbol_name": "3",
+    "latex_candidates": [
+      {
+        "command": "3",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 3"
+      }
+    ]
+  },
+  "74": {
+    "symbol_class_id": 74,
+    "symbol_name": "4",
+    "latex_candidates": [
+      {
+        "command": "4",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 4"
+      }
+    ]
+  },
+  "75": {
+    "symbol_class_id": 75,
+    "symbol_name": "5",
+    "latex_candidates": [
+      {
+        "command": "5",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 5"
+      }
+    ]
+  },
+  "76": {
+    "symbol_class_id": 76,
+    "symbol_name": "6",
+    "latex_candidates": [
+      {
+        "command": "6",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 6"
+      }
+    ]
+  },
+  "77": {
+    "symbol_class_id": 77,
+    "symbol_name": "7",
+    "latex_candidates": [
+      {
+        "command": "7",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 7"
+      }
+    ]
+  },
+  "78": {
+    "symbol_class_id": 78,
+    "symbol_name": "8",
+    "latex_candidates": [
+      {
+        "command": "8",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 8"
+      }
+    ]
+  },
+  "79": {
+    "symbol_class_id": 79,
+    "symbol_name": "9",
+    "latex_candidates": [
+      {
+        "command": "9",
+        "math_priority": 1.0,
+        "context": "digit",
+        "description": "Primary LaTeX representation for 9"
+      }
+    ]
+  },
+  "81": {
+    "symbol_class_id": 81,
+    "symbol_name": "pi",
+    "latex_candidates": [
+      {
+        "command": "\\pi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\pi",
+        "description": "Primary LaTeX representation for pi"
+      }
+    ]
+  },
+  "82": {
+    "symbol_class_id": 82,
+    "symbol_name": "alpha",
+    "latex_candidates": [
+      {
+        "command": "\\alpha",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\alpha",
+        "description": "Primary LaTeX representation for alpha"
+      }
+    ]
+  },
+  "87": {
+    "symbol_class_id": 87,
+    "symbol_name": "beta",
+    "latex_candidates": [
+      {
+        "command": "\\beta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\beta",
+        "description": "Primary LaTeX representation for beta"
+      }
+    ]
+  },
+  "88": {
+    "symbol_class_id": 88,
+    "symbol_name": "sum",
+    "latex_candidates": [
+      {
+        "command": "\\sum",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sum",
+        "description": "Primary LaTeX representation for sum"
+      }
+    ]
+  },
+  "89": {
+    "symbol_class_id": 89,
+    "symbol_name": "sigma",
+    "latex_candidates": [
+      {
+        "command": "\\sigma",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sigma",
+        "description": "Primary LaTeX representation for sigma"
+      }
+    ]
+  },
+  "90": {
+    "symbol_class_id": 90,
+    "symbol_name": "a",
+    "latex_candidates": [
+      {
+        "command": "a",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for a"
+      }
+    ]
+  },
+  "91": {
+    "symbol_class_id": 91,
+    "symbol_name": "b",
+    "latex_candidates": [
+      {
+        "command": "b",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for b"
+      }
+    ]
+  },
+  "92": {
+    "symbol_class_id": 92,
+    "symbol_name": "c",
+    "latex_candidates": [
+      {
+        "command": "c",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for c"
+      }
+    ]
+  },
+  "93": {
+    "symbol_class_id": 93,
+    "symbol_name": "d",
+    "latex_candidates": [
+      {
+        "command": "d",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for d"
+      }
+    ]
+  },
+  "94": {
+    "symbol_class_id": 94,
+    "symbol_name": "e",
+    "latex_candidates": [
+      {
+        "command": "e",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for e"
+      }
+    ]
+  },
+  "95": {
+    "symbol_class_id": 95,
+    "symbol_name": "f",
+    "latex_candidates": [
+      {
+        "command": "f",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for f"
+      }
+    ]
+  },
+  "96": {
+    "symbol_class_id": 96,
+    "symbol_name": "g",
+    "latex_candidates": [
+      {
+        "command": "g",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for g"
+      }
+    ]
+  },
+  "97": {
+    "symbol_class_id": 97,
+    "symbol_name": "h",
+    "latex_candidates": [
+      {
+        "command": "h",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for h"
+      }
+    ]
+  },
+  "98": {
+    "symbol_class_id": 98,
+    "symbol_name": "i",
+    "latex_candidates": [
+      {
+        "command": "i",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for i"
+      }
+    ]
+  },
+  "99": {
+    "symbol_class_id": 99,
+    "symbol_name": "j",
+    "latex_candidates": [
+      {
+        "command": "j",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for j"
+      }
+    ]
+  },
+  "100": {
+    "symbol_class_id": 100,
+    "symbol_name": "k",
+    "latex_candidates": [
+      {
+        "command": "k",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for k"
+      }
+    ]
+  },
+  "101": {
+    "symbol_class_id": 101,
+    "symbol_name": "l",
+    "latex_candidates": [
+      {
+        "command": "l",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for l"
+      }
+    ]
+  },
+  "102": {
+    "symbol_class_id": 102,
+    "symbol_name": "m",
+    "latex_candidates": [
+      {
+        "command": "m",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for m"
+      }
+    ]
+  },
+  "103": {
+    "symbol_class_id": 103,
+    "symbol_name": "n",
+    "latex_candidates": [
+      {
+        "command": "n",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for n"
+      }
+    ]
+  },
+  "104": {
+    "symbol_class_id": 104,
+    "symbol_name": "o",
+    "latex_candidates": [
+      {
+        "command": "o",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for o"
+      }
+    ]
+  },
+  "105": {
+    "symbol_class_id": 105,
+    "symbol_name": "p",
+    "latex_candidates": [
+      {
+        "command": "p",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for p"
+      }
+    ]
+  },
+  "106": {
+    "symbol_class_id": 106,
+    "symbol_name": "q",
+    "latex_candidates": [
+      {
+        "command": "q",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for q"
+      }
+    ]
+  },
+  "107": {
+    "symbol_class_id": 107,
+    "symbol_name": "r",
+    "latex_candidates": [
+      {
+        "command": "r",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for r"
+      }
+    ]
+  },
+  "108": {
+    "symbol_class_id": 108,
+    "symbol_name": "s",
+    "latex_candidates": [
+      {
+        "command": "s",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for s"
+      }
+    ]
+  },
+  "110": {
+    "symbol_class_id": 110,
+    "symbol_name": "u",
+    "latex_candidates": [
+      {
+        "command": "u",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for u"
+      }
+    ]
+  },
+  "111": {
+    "symbol_class_id": 111,
+    "symbol_name": "v",
+    "latex_candidates": [
+      {
+        "command": "v",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for v"
+      }
+    ]
+  },
+  "112": {
+    "symbol_class_id": 112,
+    "symbol_name": "w",
+    "latex_candidates": [
+      {
+        "command": "w",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for w"
+      }
+    ]
+  },
+  "113": {
+    "symbol_class_id": 113,
+    "symbol_name": "x",
+    "latex_candidates": [
+      {
+        "command": "x",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for x"
+      }
+    ]
+  },
+  "114": {
+    "symbol_class_id": 114,
+    "symbol_name": "y",
+    "latex_candidates": [
+      {
+        "command": "y",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for y"
+      }
+    ]
+  },
+  "115": {
+    "symbol_class_id": 115,
+    "symbol_name": "z",
+    "latex_candidates": [
+      {
+        "command": "z",
+        "math_priority": 1.0,
+        "context": "lowercase letter",
+        "description": "Primary LaTeX representation for z"
+      }
+    ]
+  },
+  "116": {
+    "symbol_class_id": 116,
+    "symbol_name": "Sigma",
+    "latex_candidates": [
+      {
+        "command": "\\Sigma",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Sigma",
+        "description": "Primary LaTeX representation for Sigma"
+      }
+    ]
+  },
+  "117": {
+    "symbol_class_id": 117,
+    "symbol_name": "gamma",
+    "latex_candidates": [
+      {
+        "command": "\\gamma",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\gamma",
+        "description": "Primary LaTeX representation for gamma"
+      }
+    ]
+  },
+  "150": {
+    "symbol_class_id": 150,
+    "symbol_name": "Gamma",
+    "latex_candidates": [
+      {
+        "command": "\\Gamma",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Gamma",
+        "description": "Primary LaTeX representation for Gamma"
+      }
+    ]
+  },
+  "151": {
+    "symbol_class_id": 151,
+    "symbol_name": "delta",
+    "latex_candidates": [
+      {
+        "command": "\\delta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\delta",
+        "description": "Primary LaTeX representation for delta"
+      }
+    ]
+  },
+  "152": {
+    "symbol_class_id": 152,
+    "symbol_name": "Delta",
+    "latex_candidates": [
+      {
+        "command": "\\Delta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Delta",
+        "description": "Primary LaTeX representation for Delta"
+      }
+    ]
+  },
+  "153": {
+    "symbol_class_id": 153,
+    "symbol_name": "zeta",
+    "latex_candidates": [
+      {
+        "command": "\\zeta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\zeta",
+        "description": "Primary LaTeX representation for zeta"
+      }
+    ]
+  },
+  "154": {
+    "symbol_class_id": 154,
+    "symbol_name": "eta",
+    "latex_candidates": [
+      {
+        "command": "\\eta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\eta",
+        "description": "Primary LaTeX representation for eta"
+      }
+    ]
+  },
+  "155": {
+    "symbol_class_id": 155,
+    "symbol_name": "theta",
+    "latex_candidates": [
+      {
+        "command": "\\theta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\theta",
+        "description": "Primary LaTeX representation for theta"
+      }
+    ]
+  },
+  "156": {
+    "symbol_class_id": 156,
+    "symbol_name": "Theta",
+    "latex_candidates": [
+      {
+        "command": "\\Theta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Theta",
+        "description": "Primary LaTeX representation for Theta"
+      }
+    ]
+  },
+  "157": {
+    "symbol_class_id": 157,
+    "symbol_name": "epsilon",
+    "latex_candidates": [
+      {
+        "command": "\\epsilon",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\epsilon",
+        "description": "Primary LaTeX representation for epsilon"
+      }
+    ]
+  },
+  "158": {
+    "symbol_class_id": 158,
+    "symbol_name": "varepsilon",
+    "latex_candidates": [
+      {
+        "command": "\\varepsilon",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varepsilon",
+        "description": "Primary LaTeX representation for varepsilon"
+      }
+    ]
+  },
+  "159": {
+    "symbol_class_id": 159,
+    "symbol_name": "iota",
+    "latex_candidates": [
+      {
+        "command": "\\iota",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\iota",
+        "description": "Primary LaTeX representation for iota"
+      }
+    ]
+  },
+  "160": {
+    "symbol_class_id": 160,
+    "symbol_name": "kappa",
+    "latex_candidates": [
+      {
+        "command": "\\kappa",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\kappa",
+        "description": "Primary LaTeX representation for kappa"
+      }
+    ]
+  },
+  "161": {
+    "symbol_class_id": 161,
+    "symbol_name": "varkappa",
+    "latex_candidates": [
+      {
+        "command": "\\varkappa",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varkappa",
+        "description": "Primary LaTeX representation for varkappa"
+      }
+    ]
+  },
+  "162": {
+    "symbol_class_id": 162,
+    "symbol_name": "lambda",
+    "latex_candidates": [
+      {
+        "command": "\\lambda",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lambda",
+        "description": "Primary LaTeX representation for lambda"
+      }
+    ]
+  },
+  "163": {
+    "symbol_class_id": 163,
+    "symbol_name": "Lambda",
+    "latex_candidates": [
+      {
+        "command": "\\Lambda",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Lambda",
+        "description": "Primary LaTeX representation for Lambda"
+      }
+    ]
+  },
+  "164": {
+    "symbol_class_id": 164,
+    "symbol_name": "mu",
+    "latex_candidates": [
+      {
+        "command": "\\mu",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mu",
+        "description": "Primary LaTeX representation for mu"
+      }
+    ]
+  },
+  "165": {
+    "symbol_class_id": 165,
+    "symbol_name": "nu",
+    "latex_candidates": [
+      {
+        "command": "\\nu",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nu",
+        "description": "Primary LaTeX representation for nu"
+      }
+    ]
+  },
+  "166": {
+    "symbol_class_id": 166,
+    "symbol_name": "xi",
+    "latex_candidates": [
+      {
+        "command": "\\xi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\xi",
+        "description": "Primary LaTeX representation for xi"
+      }
+    ]
+  },
+  "167": {
+    "symbol_class_id": 167,
+    "symbol_name": "Xi",
+    "latex_candidates": [
+      {
+        "command": "\\Xi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Xi",
+        "description": "Primary LaTeX representation for Xi"
+      }
+    ]
+  },
+  "168": {
+    "symbol_class_id": 168,
+    "symbol_name": "Pi",
+    "latex_candidates": [
+      {
+        "command": "\\Pi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Pi",
+        "description": "Primary LaTeX representation for Pi"
+      }
+    ]
+  },
+  "169": {
+    "symbol_class_id": 169,
+    "symbol_name": "rho",
+    "latex_candidates": [
+      {
+        "command": "\\rho",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rho",
+        "description": "Primary LaTeX representation for rho"
+      }
+    ]
+  },
+  "170": {
+    "symbol_class_id": 170,
+    "symbol_name": "varrho",
+    "latex_candidates": [
+      {
+        "command": "\\varrho",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varrho",
+        "description": "Primary LaTeX representation for varrho"
+      }
+    ]
+  },
+  "171": {
+    "symbol_class_id": 171,
+    "symbol_name": "tau",
+    "latex_candidates": [
+      {
+        "command": "\\tau",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\tau",
+        "description": "Primary LaTeX representation for tau"
+      }
+    ]
+  },
+  "174": {
+    "symbol_class_id": 174,
+    "symbol_name": "phi",
+    "latex_candidates": [
+      {
+        "command": "\\phi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\phi",
+        "description": "Primary LaTeX representation for phi"
+      }
+    ]
+  },
+  "175": {
+    "symbol_class_id": 175,
+    "symbol_name": "Phi",
+    "latex_candidates": [
+      {
+        "command": "\\Phi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Phi",
+        "description": "Primary LaTeX representation for Phi"
+      }
+    ]
+  },
+  "176": {
+    "symbol_class_id": 176,
+    "symbol_name": "varphi",
+    "latex_candidates": [
+      {
+        "command": "\\varphi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varphi",
+        "description": "Primary LaTeX representation for varphi"
+      }
+    ]
+  },
+  "177": {
+    "symbol_class_id": 177,
+    "symbol_name": "chi",
+    "latex_candidates": [
+      {
+        "command": "\\chi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\chi",
+        "description": "Primary LaTeX representation for chi"
+      }
+    ]
+  },
+  "178": {
+    "symbol_class_id": 178,
+    "symbol_name": "psi",
+    "latex_candidates": [
+      {
+        "command": "\\psi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\psi",
+        "description": "Primary LaTeX representation for psi"
+      }
+    ]
+  },
+  "179": {
+    "symbol_class_id": 179,
+    "symbol_name": "Psi",
+    "latex_candidates": [
+      {
+        "command": "\\Psi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Psi",
+        "description": "Primary LaTeX representation for Psi"
+      }
+    ]
+  },
+  "180": {
+    "symbol_class_id": 180,
+    "symbol_name": "omega",
+    "latex_candidates": [
+      {
+        "command": "\\omega",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\omega",
+        "description": "Primary LaTeX representation for omega"
+      }
+    ]
+  },
+  "181": {
+    "symbol_class_id": 181,
+    "symbol_name": "Omega",
+    "latex_candidates": [
+      {
+        "command": "\\Omega",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Omega",
+        "description": "Primary LaTeX representation for Omega"
+      }
+    ]
+  },
+  "182": {
+    "symbol_class_id": 182,
+    "symbol_name": "partial",
+    "latex_candidates": [
+      {
+        "command": "\\partial",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\partial",
+        "description": "Primary LaTeX representation for partial"
+      }
+    ]
+  },
+  "183": {
+    "symbol_class_id": 183,
+    "symbol_name": "int",
+    "latex_candidates": [
+      {
+        "command": "\\int",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\int",
+        "description": "Primary LaTeX representation for int"
+      }
+    ]
+  },
+  "184": {
+    "symbol_class_id": 184,
+    "symbol_name": "cdot",
+    "latex_candidates": [
+      {
+        "command": "\\cdot",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\cdot",
+        "description": "Primary LaTeX representation for cdot"
+      }
+    ]
+  },
+  "185": {
+    "symbol_class_id": 185,
+    "symbol_name": "leq",
+    "latex_candidates": [
+      {
+        "command": "\\leq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\leq",
+        "description": "Primary LaTeX representation for leq"
+      }
+    ]
+  },
+  "186": {
+    "symbol_class_id": 186,
+    "symbol_name": "geq",
+    "latex_candidates": [
+      {
+        "command": "\\geq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\geq",
+        "description": "Primary LaTeX representation for geq"
+      }
+    ]
+  },
+  "187": {
+    "symbol_class_id": 187,
+    "symbol_name": "<",
+    "latex_candidates": [
+      {
+        "command": "<",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for <"
+      }
+    ]
+  },
+  "188": {
+    "symbol_class_id": 188,
+    "symbol_name": ">",
+    "latex_candidates": [
+      {
+        "command": ">",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for >"
+      }
+    ]
+  },
+  "189": {
+    "symbol_class_id": 189,
+    "symbol_name": "subset",
+    "latex_candidates": [
+      {
+        "command": "\\subset",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\subset",
+        "description": "Primary LaTeX representation for subset"
+      }
+    ]
+  },
+  "190": {
+    "symbol_class_id": 190,
+    "symbol_name": "supset",
+    "latex_candidates": [
+      {
+        "command": "\\supset",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\supset",
+        "description": "Primary LaTeX representation for supset"
+      }
+    ]
+  },
+  "191": {
+    "symbol_class_id": 191,
+    "symbol_name": "subseteq",
+    "latex_candidates": [
+      {
+        "command": "\\subseteq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\subseteq",
+        "description": "Primary LaTeX representation for subseteq"
+      }
+    ]
+  },
+  "192": {
+    "symbol_class_id": 192,
+    "symbol_name": "supseteq",
+    "latex_candidates": [
+      {
+        "command": "\\supseteq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\supseteq",
+        "description": "Primary LaTeX representation for supseteq"
+      }
+    ]
+  },
+  "193": {
+    "symbol_class_id": 193,
+    "symbol_name": "cong",
+    "latex_candidates": [
+      {
+        "command": "\\cong",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\cong",
+        "description": "Primary LaTeX representation for cong"
+      }
+    ]
+  },
+  "194": {
+    "symbol_class_id": 194,
+    "symbol_name": "propto",
+    "latex_candidates": [
+      {
+        "command": "\\propto",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\propto",
+        "description": "Primary LaTeX representation for propto"
+      }
+    ]
+  },
+  "195": {
+    "symbol_class_id": 195,
+    "symbol_name": "-",
+    "latex_candidates": [
+      {
+        "command": "-",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for -"
+      }
+    ]
+  },
+  "196": {
+    "symbol_class_id": 196,
+    "symbol_name": "+",
+    "latex_candidates": [
+      {
+        "command": "+",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for +"
+      }
+    ]
+  },
+  "197": {
+    "symbol_class_id": 197,
+    "symbol_name": "R",
+    "latex_candidates": [
+      {
+        "command": "\\mathbb{R}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathbb{R}",
+        "description": "Primary LaTeX representation for R"
+      }
+    ]
+  },
+  "254": {
+    "symbol_class_id": 254,
+    "symbol_name": "$",
+    "latex_candidates": [
+      {
+        "command": "\\$",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\$",
+        "description": "Primary LaTeX representation for $"
+      }
+    ]
+  },
+  "257": {
+    "symbol_class_id": 257,
+    "symbol_name": "{",
+    "latex_candidates": [
+      {
+        "command": "\\{",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\{",
+        "description": "Primary LaTeX representation for {"
+      }
+    ]
+  },
+  "259": {
+    "symbol_class_id": 259,
+    "symbol_name": "copyright",
+    "latex_candidates": [
+      {
+        "command": "\\copyright",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\copyright",
+        "description": "Primary LaTeX representation for copyright"
+      }
+    ]
+  },
+  "260": {
+    "symbol_class_id": 260,
+    "symbol_name": "dots",
+    "latex_candidates": [
+      {
+        "command": "\\dots",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\dots",
+        "description": "Primary LaTeX representation for dots"
+      }
+    ]
+  },
+  "261": {
+    "symbol_class_id": 261,
+    "symbol_name": "",
+    "latex_candidates": [
+      {
+        "command": "\\}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\}",
+        "description": "Primary LaTeX representation for "
+      }
+    ]
+  },
+  "262": {
+    "symbol_class_id": 262,
+    "symbol_name": "S",
+    "latex_candidates": [
+      {
+        "command": "\\S",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\S",
+        "description": "Primary LaTeX representation for S"
+      }
+    ]
+  },
+  "263": {
+    "symbol_class_id": 263,
+    "symbol_name": "dag",
+    "latex_candidates": [
+      {
+        "command": "\\dag",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\dag",
+        "description": "Primary LaTeX representation for dag"
+      }
+    ]
+  },
+  "264": {
+    "symbol_class_id": 264,
+    "symbol_name": "pounds",
+    "latex_candidates": [
+      {
+        "command": "\\pounds",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\pounds",
+        "description": "Primary LaTeX representation for pounds"
+      }
+    ]
+  },
+  "265": {
+    "symbol_class_id": 265,
+    "symbol_name": "&",
+    "latex_candidates": [
+      {
+        "command": "\\&",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\&",
+        "description": "Primary LaTeX representation for &"
+      }
+    ]
+  },
+  "266": {
+    "symbol_class_id": 266,
+    "symbol_name": "#",
+    "latex_candidates": [
+      {
+        "command": "\\#",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\#",
+        "description": "Primary LaTeX representation for #"
+      }
+    ]
+  },
+  "267": {
+    "symbol_class_id": 267,
+    "symbol_name": "%",
+    "latex_candidates": [
+      {
+        "command": "\\%",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\%",
+        "description": "Primary LaTeX representation for %"
+      }
+    ]
+  },
+  "268": {
+    "symbol_class_id": 268,
+    "symbol_name": "checkmark",
+    "latex_candidates": [
+      {
+        "command": "\\checkmark",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\checkmark",
+        "description": "Primary LaTeX representation for checkmark"
+      }
+    ]
+  },
+  "269": {
+    "symbol_class_id": 269,
+    "symbol_name": "circledR",
+    "latex_candidates": [
+      {
+        "command": "\\circledR",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\circledR",
+        "description": "Primary LaTeX representation for circledR"
+      }
+    ]
+  },
+  "508": {
+    "symbol_class_id": 508,
+    "symbol_name": "mathsection",
+    "latex_candidates": [
+      {
+        "command": "\\mathsection",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathsection",
+        "description": "Primary LaTeX representation for mathsection"
+      }
+    ]
+  },
+  "510": {
+    "symbol_class_id": 510,
+    "symbol_name": "amalg",
+    "latex_candidates": [
+      {
+        "command": "\\amalg",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\amalg",
+        "description": "Primary LaTeX representation for amalg"
+      }
+    ]
+  },
+  "511": {
+    "symbol_class_id": 511,
+    "symbol_name": "cup",
+    "latex_candidates": [
+      {
+        "command": "\\cup",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\cup",
+        "description": "Primary LaTeX representation for cup"
+      }
+    ]
+  },
+  "512": {
+    "symbol_class_id": 512,
+    "symbol_name": "oplus",
+    "latex_candidates": [
+      {
+        "command": "\\oplus",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\oplus",
+        "description": "Primary LaTeX representation for oplus"
+      }
+    ]
+  },
+  "513": {
+    "symbol_class_id": 513,
+    "symbol_name": "times",
+    "latex_candidates": [
+      {
+        "command": "\\times",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\times",
+        "description": "Primary LaTeX representation for times"
+      }
+    ]
+  },
+  "514": {
+    "symbol_class_id": 514,
+    "symbol_name": "ast",
+    "latex_candidates": [
+      {
+        "command": "\\ast",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ast",
+        "description": "Primary LaTeX representation for ast"
+      }
+    ]
+  },
+  "517": {
+    "symbol_class_id": 517,
+    "symbol_name": "triangleleft",
+    "latex_candidates": [
+      {
+        "command": "\\triangleleft",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\triangleleft",
+        "description": "Primary LaTeX representation for triangleleft"
+      }
+    ]
+  },
+  "520": {
+    "symbol_class_id": 520,
+    "symbol_name": "otimes",
+    "latex_candidates": [
+      {
+        "command": "\\otimes",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\otimes",
+        "description": "Primary LaTeX representation for otimes"
+      }
+    ]
+  },
+  "521": {
+    "symbol_class_id": 521,
+    "symbol_name": "triangleright",
+    "latex_candidates": [
+      {
+        "command": "\\triangleright",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\triangleright",
+        "description": "Primary LaTeX representation for triangleright"
+      }
+    ]
+  },
+  "523": {
+    "symbol_class_id": 523,
+    "symbol_name": "diamond",
+    "latex_candidates": [
+      {
+        "command": "\\diamond",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\diamond",
+        "description": "Primary LaTeX representation for diamond"
+      }
+    ]
+  },
+  "524": {
+    "symbol_class_id": 524,
+    "symbol_name": "pm",
+    "latex_candidates": [
+      {
+        "command": "\\pm",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\pm",
+        "description": "Primary LaTeX representation for pm"
+      }
+    ]
+  },
+  "526": {
+    "symbol_class_id": 526,
+    "symbol_name": "div",
+    "latex_candidates": [
+      {
+        "command": "\\div",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\div",
+        "description": "Primary LaTeX representation for div"
+      }
+    ]
+  },
+  "527": {
+    "symbol_class_id": 527,
+    "symbol_name": "bullet",
+    "latex_candidates": [
+      {
+        "command": "\\bullet",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\bullet",
+        "description": "Primary LaTeX representation for bullet"
+      }
+    ]
+  },
+  "528": {
+    "symbol_class_id": 528,
+    "symbol_name": "setminus",
+    "latex_candidates": [
+      {
+        "command": "\\setminus",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\setminus",
+        "description": "Primary LaTeX representation for setminus"
+      }
+    ]
+  },
+  "529": {
+    "symbol_class_id": 529,
+    "symbol_name": "uplus",
+    "latex_candidates": [
+      {
+        "command": "\\uplus",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\uplus",
+        "description": "Primary LaTeX representation for uplus"
+      }
+    ]
+  },
+  "530": {
+    "symbol_class_id": 530,
+    "symbol_name": "cap",
+    "latex_candidates": [
+      {
+        "command": "\\cap",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\cap",
+        "description": "Primary LaTeX representation for cap"
+      }
+    ]
+  },
+  "531": {
+    "symbol_class_id": 531,
+    "symbol_name": "mp",
+    "latex_candidates": [
+      {
+        "command": "\\mp",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mp",
+        "description": "Primary LaTeX representation for mp"
+      }
+    ]
+  },
+  "532": {
+    "symbol_class_id": 532,
+    "symbol_name": "sqcap",
+    "latex_candidates": [
+      {
+        "command": "\\sqcap",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sqcap",
+        "description": "Primary LaTeX representation for sqcap"
+      }
+    ]
+  },
+  "533": {
+    "symbol_class_id": 533,
+    "symbol_name": "vee",
+    "latex_candidates": [
+      {
+        "command": "\\vee",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\vee",
+        "description": "Primary LaTeX representation for vee"
+      }
+    ]
+  },
+  "534": {
+    "symbol_class_id": 534,
+    "symbol_name": "odot",
+    "latex_candidates": [
+      {
+        "command": "\\odot",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\odot",
+        "description": "Primary LaTeX representation for odot"
+      }
+    ]
+  },
+  "535": {
+    "symbol_class_id": 535,
+    "symbol_name": "sqcup",
+    "latex_candidates": [
+      {
+        "command": "\\sqcup",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sqcup",
+        "description": "Primary LaTeX representation for sqcup"
+      }
+    ]
+  },
+  "536": {
+    "symbol_class_id": 536,
+    "symbol_name": "wedge",
+    "latex_candidates": [
+      {
+        "command": "\\wedge",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\wedge",
+        "description": "Primary LaTeX representation for wedge"
+      }
+    ]
+  },
+  "537": {
+    "symbol_class_id": 537,
+    "symbol_name": "circ",
+    "latex_candidates": [
+      {
+        "command": "\\circ",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\circ",
+        "description": "Primary LaTeX representation for circ"
+      }
+    ]
+  },
+  "538": {
+    "symbol_class_id": 538,
+    "symbol_name": "ominus",
+    "latex_candidates": [
+      {
+        "command": "\\ominus",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ominus",
+        "description": "Primary LaTeX representation for ominus"
+      }
+    ]
+  },
+  "539": {
+    "symbol_class_id": 539,
+    "symbol_name": "star",
+    "latex_candidates": [
+      {
+        "command": "\\star",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\star",
+        "description": "Primary LaTeX representation for star"
+      }
+    ]
+  },
+  "540": {
+    "symbol_class_id": 540,
+    "symbol_name": "wr",
+    "latex_candidates": [
+      {
+        "command": "\\wr",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\wr",
+        "description": "Primary LaTeX representation for wr"
+      }
+    ]
+  },
+  "541": {
+    "symbol_class_id": 541,
+    "symbol_name": "barwedge",
+    "latex_candidates": [
+      {
+        "command": "\\barwedge",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\barwedge",
+        "description": "Primary LaTeX representation for barwedge"
+      }
+    ]
+  },
+  "542": {
+    "symbol_class_id": 542,
+    "symbol_name": "circledcirc",
+    "latex_candidates": [
+      {
+        "command": "\\circledcirc",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\circledcirc",
+        "description": "Primary LaTeX representation for circledcirc"
+      }
+    ]
+  },
+  "544": {
+    "symbol_class_id": 544,
+    "symbol_name": "boxdot",
+    "latex_candidates": [
+      {
+        "command": "\\boxdot",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\boxdot",
+        "description": "Primary LaTeX representation for boxdot"
+      }
+    ]
+  },
+  "549": {
+    "symbol_class_id": 549,
+    "symbol_name": "ltimes",
+    "latex_candidates": [
+      {
+        "command": "\\ltimes",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ltimes",
+        "description": "Primary LaTeX representation for ltimes"
+      }
+    ]
+  },
+  "550": {
+    "symbol_class_id": 550,
+    "symbol_name": "boxplus",
+    "latex_candidates": [
+      {
+        "command": "\\boxplus",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\boxplus",
+        "description": "Primary LaTeX representation for boxplus"
+      }
+    ]
+  },
+  "553": {
+    "symbol_class_id": 553,
+    "symbol_name": "boxtimes",
+    "latex_candidates": [
+      {
+        "command": "\\boxtimes",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\boxtimes",
+        "description": "Primary LaTeX representation for boxtimes"
+      }
+    ]
+  },
+  "555": {
+    "symbol_class_id": 555,
+    "symbol_name": "rtimes",
+    "latex_candidates": [
+      {
+        "command": "\\rtimes",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rtimes",
+        "description": "Primary LaTeX representation for rtimes"
+      }
+    ]
+  },
+  "562": {
+    "symbol_class_id": 562,
+    "symbol_name": "circledast",
+    "latex_candidates": [
+      {
+        "command": "\\circledast",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\circledast",
+        "description": "Primary LaTeX representation for circledast"
+      }
+    ]
+  },
+  "564": {
+    "symbol_class_id": 564,
+    "symbol_name": "lhd",
+    "latex_candidates": [
+      {
+        "command": "\\lhd",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lhd",
+        "description": "Primary LaTeX representation for lhd"
+      }
+    ]
+  },
+  "574": {
+    "symbol_class_id": 574,
+    "symbol_name": "prod",
+    "latex_candidates": [
+      {
+        "command": "\\prod",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\prod",
+        "description": "Primary LaTeX representation for prod"
+      }
+    ]
+  },
+  "577": {
+    "symbol_class_id": 577,
+    "symbol_name": "coprod",
+    "latex_candidates": [
+      {
+        "command": "\\coprod",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\coprod",
+        "description": "Primary LaTeX representation for coprod"
+      }
+    ]
+  },
+  "582": {
+    "symbol_class_id": 582,
+    "symbol_name": "oint",
+    "latex_candidates": [
+      {
+        "command": "\\oint",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\oint",
+        "description": "Primary LaTeX representation for oint"
+      }
+    ]
+  },
+  "583": {
+    "symbol_class_id": 583,
+    "symbol_name": "parr",
+    "latex_candidates": [
+      {
+        "command": "\\parr",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\parr",
+        "description": "Primary LaTeX representation for parr"
+      }
+    ]
+  },
+  "584": {
+    "symbol_class_id": 584,
+    "symbol_name": "with",
+    "latex_candidates": [
+      {
+        "command": "\\with",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\with",
+        "description": "Primary LaTeX representation for with"
+      }
+    ]
+  },
+  "591": {
+    "symbol_class_id": 591,
+    "symbol_name": "fint",
+    "latex_candidates": [
+      {
+        "command": "\\fint",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\fint",
+        "description": "Primary LaTeX representation for fint"
+      }
+    ]
+  },
+  "595": {
+    "symbol_class_id": 595,
+    "symbol_name": "varoiint",
+    "latex_candidates": [
+      {
+        "command": "\\varoiint",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varoiint",
+        "description": "Primary LaTeX representation for varoiint"
+      }
+    ]
+  },
+  "600": {
+    "symbol_class_id": 600,
+    "symbol_name": "oiint",
+    "latex_candidates": [
+      {
+        "command": "\\oiint",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\oiint",
+        "description": "Primary LaTeX representation for oiint"
+      }
+    ]
+  },
+  "601": {
+    "symbol_class_id": 601,
+    "symbol_name": "approx",
+    "latex_candidates": [
+      {
+        "command": "\\approx",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\approx",
+        "description": "Primary LaTeX representation for approx"
+      }
+    ]
+  },
+  "603": {
+    "symbol_class_id": 603,
+    "symbol_name": "equiv",
+    "latex_candidates": [
+      {
+        "command": "\\equiv",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\equiv",
+        "description": "Primary LaTeX representation for equiv"
+      }
+    ]
+  },
+  "604": {
+    "symbol_class_id": 604,
+    "symbol_name": "not\\equiv",
+    "latex_candidates": [
+      {
+        "command": "\\not\\equiv",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\not\\equiv",
+        "description": "Primary LaTeX representation for not\\equiv"
+      }
+    ]
+  },
+  "605": {
+    "symbol_class_id": 605,
+    "symbol_name": "perp",
+    "latex_candidates": [
+      {
+        "command": "\\perp",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\perp",
+        "description": "Primary LaTeX representation for perp"
+      }
+    ]
+  },
+  "607": {
+    "symbol_class_id": 607,
+    "symbol_name": "asymp",
+    "latex_candidates": [
+      {
+        "command": "\\asymp",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\asymp",
+        "description": "Primary LaTeX representation for asymp"
+      }
+    ]
+  },
+  "608": {
+    "symbol_class_id": 608,
+    "symbol_name": "frown",
+    "latex_candidates": [
+      {
+        "command": "\\frown",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\frown",
+        "description": "Primary LaTeX representation for frown"
+      }
+    ]
+  },
+  "609": {
+    "symbol_class_id": 609,
+    "symbol_name": "prec",
+    "latex_candidates": [
+      {
+        "command": "\\prec",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\prec",
+        "description": "Primary LaTeX representation for prec"
+      }
+    ]
+  },
+  "610": {
+    "symbol_class_id": 610,
+    "symbol_name": "succ",
+    "latex_candidates": [
+      {
+        "command": "\\succ",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\succ",
+        "description": "Primary LaTeX representation for succ"
+      }
+    ]
+  },
+  "611": {
+    "symbol_class_id": 611,
+    "symbol_name": "bowtie",
+    "latex_candidates": [
+      {
+        "command": "\\bowtie",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\bowtie",
+        "description": "Primary LaTeX representation for bowtie"
+      }
+    ]
+  },
+  "612": {
+    "symbol_class_id": 612,
+    "symbol_name": "preceq",
+    "latex_candidates": [
+      {
+        "command": "\\preceq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\preceq",
+        "description": "Primary LaTeX representation for preceq"
+      }
+    ]
+  },
+  "613": {
+    "symbol_class_id": 613,
+    "symbol_name": "succeq",
+    "latex_candidates": [
+      {
+        "command": "\\succeq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\succeq",
+        "description": "Primary LaTeX representation for succeq"
+      }
+    ]
+  },
+  "614": {
+    "symbol_class_id": 614,
+    "symbol_name": "mid",
+    "latex_candidates": [
+      {
+        "command": "\\mid",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mid",
+        "description": "Primary LaTeX representation for mid"
+      }
+    ]
+  },
+  "615": {
+    "symbol_class_id": 615,
+    "symbol_name": "vdash",
+    "latex_candidates": [
+      {
+        "command": "\\vdash",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\vdash",
+        "description": "Primary LaTeX representation for vdash"
+      }
+    ]
+  },
+  "616": {
+    "symbol_class_id": 616,
+    "symbol_name": "dashv",
+    "latex_candidates": [
+      {
+        "command": "\\dashv",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\dashv",
+        "description": "Primary LaTeX representation for dashv"
+      }
+    ]
+  },
+  "617": {
+    "symbol_class_id": 617,
+    "symbol_name": "models",
+    "latex_candidates": [
+      {
+        "command": "\\models",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\models",
+        "description": "Primary LaTeX representation for models"
+      }
+    ]
+  },
+  "618": {
+    "symbol_class_id": 618,
+    "symbol_name": "sim",
+    "latex_candidates": [
+      {
+        "command": "\\sim",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sim",
+        "description": "Primary LaTeX representation for sim"
+      }
+    ]
+  },
+  "620": {
+    "symbol_class_id": 620,
+    "symbol_name": "doteq",
+    "latex_candidates": [
+      {
+        "command": "\\doteq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\doteq",
+        "description": "Primary LaTeX representation for doteq"
+      }
+    ]
+  },
+  "621": {
+    "symbol_class_id": 621,
+    "symbol_name": "parallel",
+    "latex_candidates": [
+      {
+        "command": "\\parallel",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\parallel",
+        "description": "Primary LaTeX representation for parallel"
+      }
+    ]
+  },
+  "622": {
+    "symbol_class_id": 622,
+    "symbol_name": "simeq",
+    "latex_candidates": [
+      {
+        "command": "\\simeq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\simeq",
+        "description": "Primary LaTeX representation for simeq"
+      }
+    ]
+  },
+  "630": {
+    "symbol_class_id": 630,
+    "symbol_name": "backsim",
+    "latex_candidates": [
+      {
+        "command": "\\backsim",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\backsim",
+        "description": "Primary LaTeX representation for backsim"
+      }
+    ]
+  },
+  "631": {
+    "symbol_class_id": 631,
+    "symbol_name": "multimap",
+    "latex_candidates": [
+      {
+        "command": "\\multimap",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\multimap",
+        "description": "Primary LaTeX representation for multimap"
+      }
+    ]
+  },
+  "634": {
+    "symbol_class_id": 634,
+    "symbol_name": "pitchfork",
+    "latex_candidates": [
+      {
+        "command": "\\pitchfork",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\pitchfork",
+        "description": "Primary LaTeX representation for pitchfork"
+      }
+    ]
+  },
+  "635": {
+    "symbol_class_id": 635,
+    "symbol_name": "therefore",
+    "latex_candidates": [
+      {
+        "command": "\\therefore",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\therefore",
+        "description": "Primary LaTeX representation for therefore"
+      }
+    ]
+  },
+  "636": {
+    "symbol_class_id": 636,
+    "symbol_name": "because",
+    "latex_candidates": [
+      {
+        "command": "\\because",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\because",
+        "description": "Primary LaTeX representation for because"
+      }
+    ]
+  },
+  "639": {
+    "symbol_class_id": 639,
+    "symbol_name": "between",
+    "latex_candidates": [
+      {
+        "command": "\\between",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\between",
+        "description": "Primary LaTeX representation for between"
+      }
+    ]
+  },
+  "640": {
+    "symbol_class_id": 640,
+    "symbol_name": "preccurlyeq",
+    "latex_candidates": [
+      {
+        "command": "\\preccurlyeq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\preccurlyeq",
+        "description": "Primary LaTeX representation for preccurlyeq"
+      }
+    ]
+  },
+  "644": {
+    "symbol_class_id": 644,
+    "symbol_name": "varpropto",
+    "latex_candidates": [
+      {
+        "command": "\\varpropto",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varpropto",
+        "description": "Primary LaTeX representation for varpropto"
+      }
+    ]
+  },
+  "647": {
+    "symbol_class_id": 647,
+    "symbol_name": "Vdash",
+    "latex_candidates": [
+      {
+        "command": "\\Vdash",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Vdash",
+        "description": "Primary LaTeX representation for Vdash"
+      }
+    ]
+  },
+  "650": {
+    "symbol_class_id": 650,
+    "symbol_name": "vDash",
+    "latex_candidates": [
+      {
+        "command": "\\vDash",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\vDash",
+        "description": "Primary LaTeX representation for vDash"
+      }
+    ]
+  },
+  "661": {
+    "symbol_class_id": 661,
+    "symbol_name": "nmid",
+    "latex_candidates": [
+      {
+        "command": "\\nmid",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nmid",
+        "description": "Primary LaTeX representation for nmid"
+      }
+    ]
+  },
+  "671": {
+    "symbol_class_id": 671,
+    "symbol_name": "nvDash",
+    "latex_candidates": [
+      {
+        "command": "\\nvDash",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nvDash",
+        "description": "Primary LaTeX representation for nvDash"
+      }
+    ]
+  },
+  "678": {
+    "symbol_class_id": 678,
+    "symbol_name": "sqsubseteq",
+    "latex_candidates": [
+      {
+        "command": "\\sqsubseteq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sqsubseteq",
+        "description": "Primary LaTeX representation for sqsubseteq"
+      }
+    ]
+  },
+  "679": {
+    "symbol_class_id": 679,
+    "symbol_name": "nsubseteq",
+    "latex_candidates": [
+      {
+        "command": "\\nsubseteq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nsubseteq",
+        "description": "Primary LaTeX representation for nsubseteq"
+      }
+    ]
+  },
+  "683": {
+    "symbol_class_id": 683,
+    "symbol_name": "subsetneq",
+    "latex_candidates": [
+      {
+        "command": "\\subsetneq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\subsetneq",
+        "description": "Primary LaTeX representation for subsetneq"
+      }
+    ]
+  },
+  "684": {
+    "symbol_class_id": 684,
+    "symbol_name": "varsubsetneq",
+    "latex_candidates": [
+      {
+        "command": "\\varsubsetneq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varsubsetneq",
+        "description": "Primary LaTeX representation for varsubsetneq"
+      }
+    ]
+  },
+  "698": {
+    "symbol_class_id": 698,
+    "symbol_name": "neq",
+    "latex_candidates": [
+      {
+        "command": "\\neq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\neq",
+        "description": "Primary LaTeX representation for neq"
+      }
+    ]
+  },
+  "711": {
+    "symbol_class_id": 711,
+    "symbol_name": "geqslant",
+    "latex_candidates": [
+      {
+        "command": "\\geqslant",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\geqslant",
+        "description": "Primary LaTeX representation for geqslant"
+      }
+    ]
+  },
+  "712": {
+    "symbol_class_id": 712,
+    "symbol_name": "gtrless",
+    "latex_candidates": [
+      {
+        "command": "\\gtrless",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\gtrless",
+        "description": "Primary LaTeX representation for gtrless"
+      }
+    ]
+  },
+  "713": {
+    "symbol_class_id": 713,
+    "symbol_name": "lesssim",
+    "latex_candidates": [
+      {
+        "command": "\\lesssim",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lesssim",
+        "description": "Primary LaTeX representation for lesssim"
+      }
+    ]
+  },
+  "716": {
+    "symbol_class_id": 716,
+    "symbol_name": "gtrsim",
+    "latex_candidates": [
+      {
+        "command": "\\gtrsim",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\gtrsim",
+        "description": "Primary LaTeX representation for gtrsim"
+      }
+    ]
+  },
+  "728": {
+    "symbol_class_id": 728,
+    "symbol_name": "leqslant",
+    "latex_candidates": [
+      {
+        "command": "\\leqslant",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\leqslant",
+        "description": "Primary LaTeX representation for leqslant"
+      }
+    ]
+  },
+  "739": {
+    "symbol_class_id": 739,
+    "symbol_name": "trianglelefteq",
+    "latex_candidates": [
+      {
+        "command": "\\trianglelefteq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\trianglelefteq",
+        "description": "Primary LaTeX representation for trianglelefteq"
+      }
+    ]
+  },
+  "741": {
+    "symbol_class_id": 741,
+    "symbol_name": "blacktriangleright",
+    "latex_candidates": [
+      {
+        "command": "\\blacktriangleright",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\blacktriangleright",
+        "description": "Primary LaTeX representation for blacktriangleright"
+      }
+    ]
+  },
+  "743": {
+    "symbol_class_id": 743,
+    "symbol_name": "triangleq",
+    "latex_candidates": [
+      {
+        "command": "\\triangleq",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\triangleq",
+        "description": "Primary LaTeX representation for triangleq"
+      }
+    ]
+  },
+  "748": {
+    "symbol_class_id": 748,
+    "symbol_name": "Downarrow",
+    "latex_candidates": [
+      {
+        "command": "\\Downarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Downarrow",
+        "description": "Primary LaTeX representation for Downarrow"
+      }
+    ]
+  },
+  "751": {
+    "symbol_class_id": 751,
+    "symbol_name": "downarrow",
+    "latex_candidates": [
+      {
+        "command": "\\downarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\downarrow",
+        "description": "Primary LaTeX representation for downarrow"
+      }
+    ]
+  },
+  "753": {
+    "symbol_class_id": 753,
+    "symbol_name": "Rightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\Rightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Rightarrow",
+        "description": "Primary LaTeX representation for Rightarrow"
+      }
+    ]
+  },
+  "756": {
+    "symbol_class_id": 756,
+    "symbol_name": "hookrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\hookrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\hookrightarrow",
+        "description": "Primary LaTeX representation for hookrightarrow"
+      }
+    ]
+  },
+  "757": {
+    "symbol_class_id": 757,
+    "symbol_name": "Longleftrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\Longleftrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Longleftrightarrow",
+        "description": "Primary LaTeX representation for Longleftrightarrow"
+      }
+    ]
+  },
+  "758": {
+    "symbol_class_id": 758,
+    "symbol_name": "searrow",
+    "latex_candidates": [
+      {
+        "command": "\\searrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\searrow",
+        "description": "Primary LaTeX representation for searrow"
+      }
+    ]
+  },
+  "759": {
+    "symbol_class_id": 759,
+    "symbol_name": "longmapsto",
+    "latex_candidates": [
+      {
+        "command": "\\longmapsto",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\longmapsto",
+        "description": "Primary LaTeX representation for longmapsto"
+      }
+    ]
+  },
+  "761": {
+    "symbol_class_id": 761,
+    "symbol_name": "leftarrow",
+    "latex_candidates": [
+      {
+        "command": "\\leftarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\leftarrow",
+        "description": "Primary LaTeX representation for leftarrow"
+      }
+    ]
+  },
+  "762": {
+    "symbol_class_id": 762,
+    "symbol_name": "Longrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\Longrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Longrightarrow",
+        "description": "Primary LaTeX representation for Longrightarrow"
+      }
+    ]
+  },
+  "763": {
+    "symbol_class_id": 763,
+    "symbol_name": "uparrow",
+    "latex_candidates": [
+      {
+        "command": "\\uparrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\uparrow",
+        "description": "Primary LaTeX representation for uparrow"
+      }
+    ]
+  },
+  "764": {
+    "symbol_class_id": 764,
+    "symbol_name": "Leftarrow",
+    "latex_candidates": [
+      {
+        "command": "\\Leftarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Leftarrow",
+        "description": "Primary LaTeX representation for Leftarrow"
+      }
+    ]
+  },
+  "765": {
+    "symbol_class_id": 765,
+    "symbol_name": "longrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\longrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\longrightarrow",
+        "description": "Primary LaTeX representation for longrightarrow"
+      }
+    ]
+  },
+  "767": {
+    "symbol_class_id": 767,
+    "symbol_name": "Leftrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\Leftrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Leftrightarrow",
+        "description": "Primary LaTeX representation for Leftrightarrow"
+      }
+    ]
+  },
+  "768": {
+    "symbol_class_id": 768,
+    "symbol_name": "mapsto",
+    "latex_candidates": [
+      {
+        "command": "\\mapsto",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mapsto",
+        "description": "Primary LaTeX representation for mapsto"
+      }
+    ]
+  },
+  "770": {
+    "symbol_class_id": 770,
+    "symbol_name": "leftrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\leftrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\leftrightarrow",
+        "description": "Primary LaTeX representation for leftrightarrow"
+      }
+    ]
+  },
+  "771": {
+    "symbol_class_id": 771,
+    "symbol_name": "nearrow",
+    "latex_candidates": [
+      {
+        "command": "\\nearrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nearrow",
+        "description": "Primary LaTeX representation for nearrow"
+      }
+    ]
+  },
+  "775": {
+    "symbol_class_id": 775,
+    "symbol_name": "rightleftharpoons",
+    "latex_candidates": [
+      {
+        "command": "\\rightleftharpoons",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rightleftharpoons",
+        "description": "Primary LaTeX representation for rightleftharpoons"
+      }
+    ]
+  },
+  "777": {
+    "symbol_class_id": 777,
+    "symbol_name": "rightharpoonup",
+    "latex_candidates": [
+      {
+        "command": "\\rightharpoonup",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rightharpoonup",
+        "description": "Primary LaTeX representation for rightharpoonup"
+      }
+    ]
+  },
+  "778": {
+    "symbol_class_id": 778,
+    "symbol_name": "leadsto",
+    "latex_candidates": [
+      {
+        "command": "\\leadsto",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\leadsto",
+        "description": "Primary LaTeX representation for leadsto"
+      }
+    ]
+  },
+  "783": {
+    "symbol_class_id": 783,
+    "symbol_name": "circlearrowleft",
+    "latex_candidates": [
+      {
+        "command": "\\circlearrowleft",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\circlearrowleft",
+        "description": "Primary LaTeX representation for circlearrowleft"
+      }
+    ]
+  },
+  "785": {
+    "symbol_class_id": 785,
+    "symbol_name": "rightleftarrows",
+    "latex_candidates": [
+      {
+        "command": "\\rightleftarrows",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rightleftarrows",
+        "description": "Primary LaTeX representation for rightleftarrows"
+      }
+    ]
+  },
+  "786": {
+    "symbol_class_id": 786,
+    "symbol_name": "circlearrowright",
+    "latex_candidates": [
+      {
+        "command": "\\circlearrowright",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\circlearrowright",
+        "description": "Primary LaTeX representation for circlearrowright"
+      }
+    ]
+  },
+  "788": {
+    "symbol_class_id": 788,
+    "symbol_name": "rightrightarrows",
+    "latex_candidates": [
+      {
+        "command": "\\rightrightarrows",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rightrightarrows",
+        "description": "Primary LaTeX representation for rightrightarrows"
+      }
+    ]
+  },
+  "791": {
+    "symbol_class_id": 791,
+    "symbol_name": "rightsquigarrow",
+    "latex_candidates": [
+      {
+        "command": "\\rightsquigarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rightsquigarrow",
+        "description": "Primary LaTeX representation for rightsquigarrow"
+      }
+    ]
+  },
+  "792": {
+    "symbol_class_id": 792,
+    "symbol_name": "curvearrowright",
+    "latex_candidates": [
+      {
+        "command": "\\curvearrowright",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\curvearrowright",
+        "description": "Primary LaTeX representation for curvearrowright"
+      }
+    ]
+  },
+  "801": {
+    "symbol_class_id": 801,
+    "symbol_name": "twoheadrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\twoheadrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\twoheadrightarrow",
+        "description": "Primary LaTeX representation for twoheadrightarrow"
+      }
+    ]
+  },
+  "809": {
+    "symbol_class_id": 809,
+    "symbol_name": "nRightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\nRightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nRightarrow",
+        "description": "Primary LaTeX representation for nRightarrow"
+      }
+    ]
+  },
+  "812": {
+    "symbol_class_id": 812,
+    "symbol_name": "nrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\nrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nrightarrow",
+        "description": "Primary LaTeX representation for nrightarrow"
+      }
+    ]
+  },
+  "817": {
+    "symbol_class_id": 817,
+    "symbol_name": "upharpoonright",
+    "latex_candidates": [
+      {
+        "command": "\\upharpoonright",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\upharpoonright",
+        "description": "Primary LaTeX representation for upharpoonright"
+      }
+    ]
+  },
+  "822": {
+    "symbol_class_id": 822,
+    "symbol_name": "mapsfrom",
+    "latex_candidates": [
+      {
+        "command": "\\mapsfrom",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mapsfrom",
+        "description": "Primary LaTeX representation for mapsfrom"
+      }
+    ]
+  },
+  "823": {
+    "symbol_class_id": 823,
+    "symbol_name": "shortrightarrow",
+    "latex_candidates": [
+      {
+        "command": "\\shortrightarrow",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\shortrightarrow",
+        "description": "Primary LaTeX representation for shortrightarrow"
+      }
+    ]
+  },
+  "827": {
+    "symbol_class_id": 827,
+    "symbol_name": "lightning",
+    "latex_candidates": [
+      {
+        "command": "\\lightning",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lightning",
+        "description": "Primary LaTeX representation for lightning"
+      }
+    ]
+  },
+  "837": {
+    "symbol_class_id": 837,
+    "symbol_name": "vartheta",
+    "latex_candidates": [
+      {
+        "command": "\\vartheta",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\vartheta",
+        "description": "Primary LaTeX representation for vartheta"
+      }
+    ]
+  },
+  "838": {
+    "symbol_class_id": 838,
+    "symbol_name": "varpi",
+    "latex_candidates": [
+      {
+        "command": "\\varpi",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varpi",
+        "description": "Primary LaTeX representation for varpi"
+      }
+    ]
+  },
+  "881": {
+    "symbol_class_id": 881,
+    "symbol_name": "bot",
+    "latex_candidates": [
+      {
+        "command": "\\bot",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\bot",
+        "description": "Primary LaTeX representation for bot"
+      }
+    ]
+  },
+  "882": {
+    "symbol_class_id": 882,
+    "symbol_name": "forall",
+    "latex_candidates": [
+      {
+        "command": "\\forall",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\forall",
+        "description": "Primary LaTeX representation for forall"
+      }
+    ]
+  },
+  "884": {
+    "symbol_class_id": 884,
+    "symbol_name": "ni",
+    "latex_candidates": [
+      {
+        "command": "\\ni",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ni",
+        "description": "Primary LaTeX representation for ni"
+      }
+    ]
+  },
+  "885": {
+    "symbol_class_id": 885,
+    "symbol_name": "top",
+    "latex_candidates": [
+      {
+        "command": "\\top",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\top",
+        "description": "Primary LaTeX representation for top"
+      }
+    ]
+  },
+  "886": {
+    "symbol_class_id": 886,
+    "symbol_name": "ell",
+    "latex_candidates": [
+      {
+        "command": "\\ell",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ell",
+        "description": "Primary LaTeX representation for ell"
+      }
+    ]
+  },
+  "887": {
+    "symbol_class_id": 887,
+    "symbol_name": "hbar",
+    "latex_candidates": [
+      {
+        "command": "\\hbar",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\hbar",
+        "description": "Primary LaTeX representation for hbar"
+      }
+    ]
+  },
+  "888": {
+    "symbol_class_id": 888,
+    "symbol_name": "in",
+    "latex_candidates": [
+      {
+        "command": "\\in",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\in",
+        "description": "Primary LaTeX representation for in"
+      }
+    ]
+  },
+  "889": {
+    "symbol_class_id": 889,
+    "symbol_name": "notin",
+    "latex_candidates": [
+      {
+        "command": "\\notin",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\notin",
+        "description": "Primary LaTeX representation for notin"
+      }
+    ]
+  },
+  "890": {
+    "symbol_class_id": 890,
+    "symbol_name": "wp",
+    "latex_candidates": [
+      {
+        "command": "\\wp",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\wp",
+        "description": "Primary LaTeX representation for wp"
+      }
+    ]
+  },
+  "891": {
+    "symbol_class_id": 891,
+    "symbol_name": "exists",
+    "latex_candidates": [
+      {
+        "command": "\\exists",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\exists",
+        "description": "Primary LaTeX representation for exists"
+      }
+    ]
+  },
+  "892": {
+    "symbol_class_id": 892,
+    "symbol_name": "Im",
+    "latex_candidates": [
+      {
+        "command": "\\Im",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Im",
+        "description": "Primary LaTeX representation for Im"
+      }
+    ]
+  },
+  "894": {
+    "symbol_class_id": 894,
+    "symbol_name": "Re",
+    "latex_candidates": [
+      {
+        "command": "\\Re",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Re",
+        "description": "Primary LaTeX representation for Re"
+      }
+    ]
+  },
+  "901": {
+    "symbol_class_id": 901,
+    "symbol_name": "nexists",
+    "latex_candidates": [
+      {
+        "command": "\\nexists",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nexists",
+        "description": "Primary LaTeX representation for nexists"
+      }
+    ]
+  },
+  "912": {
+    "symbol_class_id": 912,
+    "symbol_name": "langle",
+    "latex_candidates": [
+      {
+        "command": "\\langle",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\langle",
+        "description": "Primary LaTeX representation for langle"
+      }
+    ]
+  },
+  "913": {
+    "symbol_class_id": 913,
+    "symbol_name": "rangle",
+    "latex_candidates": [
+      {
+        "command": "\\rangle",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rangle",
+        "description": "Primary LaTeX representation for rangle"
+      }
+    ]
+  },
+  "914": {
+    "symbol_class_id": 914,
+    "symbol_name": "lceil",
+    "latex_candidates": [
+      {
+        "command": "\\lceil",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lceil",
+        "description": "Primary LaTeX representation for lceil"
+      }
+    ]
+  },
+  "915": {
+    "symbol_class_id": 915,
+    "symbol_name": "rceil",
+    "latex_candidates": [
+      {
+        "command": "\\rceil",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rceil",
+        "description": "Primary LaTeX representation for rceil"
+      }
+    ]
+  },
+  "916": {
+    "symbol_class_id": 916,
+    "symbol_name": "lfloor",
+    "latex_candidates": [
+      {
+        "command": "\\lfloor",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lfloor",
+        "description": "Primary LaTeX representation for lfloor"
+      }
+    ]
+  },
+  "917": {
+    "symbol_class_id": 917,
+    "symbol_name": "rfloor",
+    "latex_candidates": [
+      {
+        "command": "\\rfloor",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rfloor",
+        "description": "Primary LaTeX representation for rfloor"
+      }
+    ]
+  },
+  "918": {
+    "symbol_class_id": 918,
+    "symbol_name": "[",
+    "latex_candidates": [
+      {
+        "command": "[",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for ["
+      }
+    ]
+  },
+  "919": {
+    "symbol_class_id": 919,
+    "symbol_name": "]",
+    "latex_candidates": [
+      {
+        "command": "]",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for ]"
+      }
+    ]
+  },
+  "920": {
+    "symbol_class_id": 920,
+    "symbol_name": "|",
+    "latex_candidates": [
+      {
+        "command": "|",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for |"
+      }
+    ]
+  },
+  "921": {
+    "symbol_class_id": 921,
+    "symbol_name": "|",
+    "latex_candidates": [
+      {
+        "command": "\\|",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\|",
+        "description": "Primary LaTeX representation for |"
+      }
+    ]
+  },
+  "922": {
+    "symbol_class_id": 922,
+    "symbol_name": "/",
+    "latex_candidates": [
+      {
+        "command": "/",
+        "math_priority": 1.0,
+        "context": "symbol",
+        "description": "Primary LaTeX representation for /"
+      }
+    ]
+  },
+  "923": {
+    "symbol_class_id": 923,
+    "symbol_name": "llbracket",
+    "latex_candidates": [
+      {
+        "command": "\\llbracket",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\llbracket",
+        "description": "Primary LaTeX representation for llbracket"
+      }
+    ]
+  },
+  "924": {
+    "symbol_class_id": 924,
+    "symbol_name": "rrbracket",
+    "latex_candidates": [
+      {
+        "command": "\\rrbracket",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\rrbracket",
+        "description": "Primary LaTeX representation for rrbracket"
+      }
+    ]
+  },
+  "934": {
+    "symbol_class_id": 934,
+    "symbol_name": "vdots",
+    "latex_candidates": [
+      {
+        "command": "\\vdots",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\vdots",
+        "description": "Primary LaTeX representation for vdots"
+      }
+    ]
+  },
+  "936": {
+    "symbol_class_id": 936,
+    "symbol_name": "ddots",
+    "latex_candidates": [
+      {
+        "command": "\\ddots",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ddots",
+        "description": "Primary LaTeX representation for ddots"
+      }
+    ]
+  },
+  "941": {
+    "symbol_class_id": 941,
+    "symbol_name": "dotsc",
+    "latex_candidates": [
+      {
+        "command": "\\dotsc",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\dotsc",
+        "description": "Primary LaTeX representation for dotsc"
+      }
+    ]
+  },
+  "943": {
+    "symbol_class_id": 943,
+    "symbol_name": "aleph",
+    "latex_candidates": [
+      {
+        "command": "\\aleph",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\aleph",
+        "description": "Primary LaTeX representation for aleph"
+      }
+    ]
+  },
+  "944": {
+    "symbol_class_id": 944,
+    "symbol_name": "infty",
+    "latex_candidates": [
+      {
+        "command": "\\infty",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\infty",
+        "description": "Primary LaTeX representation for infty"
+      }
+    ]
+  },
+  "945": {
+    "symbol_class_id": 945,
+    "symbol_name": "prime",
+    "latex_candidates": [
+      {
+        "command": "\\prime",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\prime",
+        "description": "Primary LaTeX representation for prime"
+      }
+    ]
+  },
+  "946": {
+    "symbol_class_id": 946,
+    "symbol_name": "angle",
+    "latex_candidates": [
+      {
+        "command": "\\angle",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\angle",
+        "description": "Primary LaTeX representation for angle"
+      }
+    ]
+  },
+  "947": {
+    "symbol_class_id": 947,
+    "symbol_name": "diamondsuit",
+    "latex_candidates": [
+      {
+        "command": "\\diamondsuit",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\diamondsuit",
+        "description": "Primary LaTeX representation for diamondsuit"
+      }
+    ]
+  },
+  "948": {
+    "symbol_class_id": 948,
+    "symbol_name": "sharp",
+    "latex_candidates": [
+      {
+        "command": "\\sharp",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sharp",
+        "description": "Primary LaTeX representation for sharp"
+      }
+    ]
+  },
+  "949": {
+    "symbol_class_id": 949,
+    "symbol_name": "backslash",
+    "latex_candidates": [
+      {
+        "command": "\\backslash",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\backslash",
+        "description": "Primary LaTeX representation for backslash"
+      }
+    ]
+  },
+  "950": {
+    "symbol_class_id": 950,
+    "symbol_name": "emptyset",
+    "latex_candidates": [
+      {
+        "command": "\\emptyset",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\emptyset",
+        "description": "Primary LaTeX representation for emptyset"
+      }
+    ]
+  },
+  "951": {
+    "symbol_class_id": 951,
+    "symbol_name": "nabla",
+    "latex_candidates": [
+      {
+        "command": "\\nabla",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\nabla",
+        "description": "Primary LaTeX representation for nabla"
+      }
+    ]
+  },
+  "953": {
+    "symbol_class_id": 953,
+    "symbol_name": "flat",
+    "latex_candidates": [
+      {
+        "command": "\\flat",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\flat",
+        "description": "Primary LaTeX representation for flat"
+      }
+    ]
+  },
+  "956": {
+    "symbol_class_id": 956,
+    "symbol_name": "clubsuit",
+    "latex_candidates": [
+      {
+        "command": "\\clubsuit",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\clubsuit",
+        "description": "Primary LaTeX representation for clubsuit"
+      }
+    ]
+  },
+  "957": {
+    "symbol_class_id": 957,
+    "symbol_name": "heartsuit",
+    "latex_candidates": [
+      {
+        "command": "\\heartsuit",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\heartsuit",
+        "description": "Primary LaTeX representation for heartsuit"
+      }
+    ]
+  },
+  "958": {
+    "symbol_class_id": 958,
+    "symbol_name": "neg",
+    "latex_candidates": [
+      {
+        "command": "\\neg",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\neg",
+        "description": "Primary LaTeX representation for neg"
+      }
+    ]
+  },
+  "959": {
+    "symbol_class_id": 959,
+    "symbol_name": "triangle",
+    "latex_candidates": [
+      {
+        "command": "\\triangle",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\triangle",
+        "description": "Primary LaTeX representation for triangle"
+      }
+    ]
+  },
+  "960": {
+    "symbol_class_id": 960,
+    "symbol_name": "sqrt{",
+    "latex_candidates": [
+      {
+        "command": "\\sqrt{}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sqrt{}",
+        "description": "Primary LaTeX representation for sqrt{"
+      }
+    ]
+  },
+  "965": {
+    "symbol_class_id": 965,
+    "symbol_name": "sphericalangle",
+    "latex_candidates": [
+      {
+        "command": "\\sphericalangle",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sphericalangle",
+        "description": "Primary LaTeX representation for sphericalangle"
+      }
+    ]
+  },
+  "968": {
+    "symbol_class_id": 968,
+    "symbol_name": "square",
+    "latex_candidates": [
+      {
+        "command": "\\square",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\square",
+        "description": "Primary LaTeX representation for square"
+      }
+    ]
+  },
+  "971": {
+    "symbol_class_id": 971,
+    "symbol_name": "triangledown",
+    "latex_candidates": [
+      {
+        "command": "\\triangledown",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\triangledown",
+        "description": "Primary LaTeX representation for triangledown"
+      }
+    ]
+  },
+  "972": {
+    "symbol_class_id": 972,
+    "symbol_name": "blacksquare",
+    "latex_candidates": [
+      {
+        "command": "\\blacksquare",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\blacksquare",
+        "description": "Primary LaTeX representation for blacksquare"
+      }
+    ]
+  },
+  "973": {
+    "symbol_class_id": 973,
+    "symbol_name": "lozenge",
+    "latex_candidates": [
+      {
+        "command": "\\lozenge",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\lozenge",
+        "description": "Primary LaTeX representation for lozenge"
+      }
+    ]
+  },
+  "974": {
+    "symbol_class_id": 974,
+    "symbol_name": "varnothing",
+    "latex_candidates": [
+      {
+        "command": "\\varnothing",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\varnothing",
+        "description": "Primary LaTeX representation for varnothing"
+      }
+    ]
+  },
+  "977": {
+    "symbol_class_id": 977,
+    "symbol_name": "vartriangle",
+    "latex_candidates": [
+      {
+        "command": "\\vartriangle",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\vartriangle",
+        "description": "Primary LaTeX representation for vartriangle"
+      }
+    ]
+  },
+  "992": {
+    "symbol_class_id": 992,
+    "symbol_name": "iddots",
+    "latex_candidates": [
+      {
+        "command": "\\iddots",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\iddots",
+        "description": "Primary LaTeX representation for iddots"
+      }
+    ]
+  },
+  "993": {
+    "symbol_class_id": 993,
+    "symbol_name": "A",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{A}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{A}",
+        "description": "Primary LaTeX representation for A"
+      }
+    ]
+  },
+  "994": {
+    "symbol_class_id": 994,
+    "symbol_name": "B",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{B}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{B}",
+        "description": "Primary LaTeX representation for B"
+      }
+    ]
+  },
+  "995": {
+    "symbol_class_id": 995,
+    "symbol_name": "C",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{C}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{C}",
+        "description": "Primary LaTeX representation for C"
+      }
+    ]
+  },
+  "996": {
+    "symbol_class_id": 996,
+    "symbol_name": "D",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{D}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{D}",
+        "description": "Primary LaTeX representation for D"
+      }
+    ]
+  },
+  "997": {
+    "symbol_class_id": 997,
+    "symbol_name": "E",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{E}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{E}",
+        "description": "Primary LaTeX representation for E"
+      }
+    ]
+  },
+  "998": {
+    "symbol_class_id": 998,
+    "symbol_name": "F",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{F}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{F}",
+        "description": "Primary LaTeX representation for F"
+      }
+    ]
+  },
+  "999": {
+    "symbol_class_id": 999,
+    "symbol_name": "G",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{G}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{G}",
+        "description": "Primary LaTeX representation for G"
+      }
+    ]
+  },
+  "1000": {
+    "symbol_class_id": 1000,
+    "symbol_name": "H",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{H}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{H}",
+        "description": "Primary LaTeX representation for H"
+      }
+    ]
+  },
+  "1004": {
+    "symbol_class_id": 1004,
+    "symbol_name": "L",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{L}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{L}",
+        "description": "Primary LaTeX representation for L"
+      }
+    ]
+  },
+  "1005": {
+    "symbol_class_id": 1005,
+    "symbol_name": "M",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{M}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{M}",
+        "description": "Primary LaTeX representation for M"
+      }
+    ]
+  },
+  "1006": {
+    "symbol_class_id": 1006,
+    "symbol_name": "N",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{N}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{N}",
+        "description": "Primary LaTeX representation for N"
+      }
+    ]
+  },
+  "1007": {
+    "symbol_class_id": 1007,
+    "symbol_name": "O",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{O}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{O}",
+        "description": "Primary LaTeX representation for O"
+      }
+    ]
+  },
+  "1008": {
+    "symbol_class_id": 1008,
+    "symbol_name": "P",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{P}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{P}",
+        "description": "Primary LaTeX representation for P"
+      }
+    ]
+  },
+  "1010": {
+    "symbol_class_id": 1010,
+    "symbol_name": "R",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{R}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{R}",
+        "description": "Primary LaTeX representation for R"
+      }
+    ]
+  },
+  "1011": {
+    "symbol_class_id": 1011,
+    "symbol_name": "S",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{S}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{S}",
+        "description": "Primary LaTeX representation for S"
+      }
+    ]
+  },
+  "1012": {
+    "symbol_class_id": 1012,
+    "symbol_name": "T",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{T}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{T}",
+        "description": "Primary LaTeX representation for T"
+      }
+    ]
+  },
+  "1013": {
+    "symbol_class_id": 1013,
+    "symbol_name": "U",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{U}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{U}",
+        "description": "Primary LaTeX representation for U"
+      }
+    ]
+  },
+  "1016": {
+    "symbol_class_id": 1016,
+    "symbol_name": "X",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{X}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{X}",
+        "description": "Primary LaTeX representation for X"
+      }
+    ]
+  },
+  "1018": {
+    "symbol_class_id": 1018,
+    "symbol_name": "Z",
+    "latex_candidates": [
+      {
+        "command": "\\mathcal{Z}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathcal{Z}",
+        "description": "Primary LaTeX representation for Z"
+      }
+    ]
+  },
+  "1019": {
+    "symbol_class_id": 1019,
+    "symbol_name": "A",
+    "latex_candidates": [
+      {
+        "command": "\\mathfrak{A}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathfrak{A}",
+        "description": "Primary LaTeX representation for A"
+      }
+    ]
+  },
+  "1031": {
+    "symbol_class_id": 1031,
+    "symbol_name": "M",
+    "latex_candidates": [
+      {
+        "command": "\\mathfrak{M}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathfrak{M}",
+        "description": "Primary LaTeX representation for M"
+      }
+    ]
+  },
+  "1037": {
+    "symbol_class_id": 1037,
+    "symbol_name": "S",
+    "latex_candidates": [
+      {
+        "command": "\\mathfrak{S}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathfrak{S}",
+        "description": "Primary LaTeX representation for S"
+      }
+    ]
+  },
+  "1042": {
+    "symbol_class_id": 1042,
+    "symbol_name": "X",
+    "latex_candidates": [
+      {
+        "command": "\\mathfrak{X}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathfrak{X}",
+        "description": "Primary LaTeX representation for X"
+      }
+    ]
+  },
+  "1045": {
+    "symbol_class_id": 1045,
+    "symbol_name": "1",
+    "latex_candidates": [
+      {
+        "command": "\\mathbb{1}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathbb{1}",
+        "description": "Primary LaTeX representation for 1"
+      }
+    ]
+  },
+  "1046": {
+    "symbol_class_id": 1046,
+    "symbol_name": "1",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{1}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{1}",
+        "description": "Primary LaTeX representation for 1"
+      }
+    ]
+  },
+  "1051": {
+    "symbol_class_id": 1051,
+    "symbol_name": "C",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{C}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{C}",
+        "description": "Primary LaTeX representation for C"
+      }
+    ]
+  },
+  "1053": {
+    "symbol_class_id": 1053,
+    "symbol_name": "E",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{E}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{E}",
+        "description": "Primary LaTeX representation for E"
+      }
+    ]
+  },
+  "1062": {
+    "symbol_class_id": 1062,
+    "symbol_name": "N",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{N}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{N}",
+        "description": "Primary LaTeX representation for N"
+      }
+    ]
+  },
+  "1064": {
+    "symbol_class_id": 1064,
+    "symbol_name": "P",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{P}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{P}",
+        "description": "Primary LaTeX representation for P"
+      }
+    ]
+  },
+  "1065": {
+    "symbol_class_id": 1065,
+    "symbol_name": "Q",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{Q}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{Q}",
+        "description": "Primary LaTeX representation for Q"
+      }
+    ]
+  },
+  "1066": {
+    "symbol_class_id": 1066,
+    "symbol_name": "R",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{R}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{R}",
+        "description": "Primary LaTeX representation for R"
+      }
+    ]
+  },
+  "1074": {
+    "symbol_class_id": 1074,
+    "symbol_name": "Z",
+    "latex_candidates": [
+      {
+        "command": "\\mathds{Z}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathds{Z}",
+        "description": "Primary LaTeX representation for Z"
+      }
+    ]
+  },
+  "1075": {
+    "symbol_class_id": 1075,
+    "symbol_name": "A",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{A}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{A}",
+        "description": "Primary LaTeX representation for A"
+      }
+    ]
+  },
+  "1077": {
+    "symbol_class_id": 1077,
+    "symbol_name": "C",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{C}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{C}",
+        "description": "Primary LaTeX representation for C"
+      }
+    ]
+  },
+  "1078": {
+    "symbol_class_id": 1078,
+    "symbol_name": "D",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{D}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{D}",
+        "description": "Primary LaTeX representation for D"
+      }
+    ]
+  },
+  "1079": {
+    "symbol_class_id": 1079,
+    "symbol_name": "E",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{E}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{E}",
+        "description": "Primary LaTeX representation for E"
+      }
+    ]
+  },
+  "1080": {
+    "symbol_class_id": 1080,
+    "symbol_name": "F",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{F}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{F}",
+        "description": "Primary LaTeX representation for F"
+      }
+    ]
+  },
+  "1082": {
+    "symbol_class_id": 1082,
+    "symbol_name": "H",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{H}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{H}",
+        "description": "Primary LaTeX representation for H"
+      }
+    ]
+  },
+  "1086": {
+    "symbol_class_id": 1086,
+    "symbol_name": "L",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{L}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{L}",
+        "description": "Primary LaTeX representation for L"
+      }
+    ]
+  },
+  "1090": {
+    "symbol_class_id": 1090,
+    "symbol_name": "P",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{P}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{P}",
+        "description": "Primary LaTeX representation for P"
+      }
+    ]
+  },
+  "1093": {
+    "symbol_class_id": 1093,
+    "symbol_name": "S",
+    "latex_candidates": [
+      {
+        "command": "\\mathscr{S}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathscr{S}",
+        "description": "Primary LaTeX representation for S"
+      }
+    ]
+  },
+  "1101": {
+    "symbol_class_id": 1101,
+    "symbol_name": "celsius",
+    "latex_candidates": [
+      {
+        "command": "\\celsius",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\celsius",
+        "description": "Primary LaTeX representation for celsius"
+      }
+    ]
+  },
+  "1102": {
+    "symbol_class_id": 1102,
+    "symbol_name": "degree",
+    "latex_candidates": [
+      {
+        "command": "\\degree",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\degree",
+        "description": "Primary LaTeX representation for degree"
+      }
+    ]
+  },
+  "1103": {
+    "symbol_class_id": 1103,
+    "symbol_name": "ohm",
+    "latex_candidates": [
+      {
+        "command": "\\ohm",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ohm",
+        "description": "Primary LaTeX representation for ohm"
+      }
+    ]
+  },
+  "1111": {
+    "symbol_class_id": 1111,
+    "symbol_name": "venus",
+    "latex_candidates": [
+      {
+        "command": "\\venus",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\venus",
+        "description": "Primary LaTeX representation for venus"
+      }
+    ]
+  },
+  "1112": {
+    "symbol_class_id": 1112,
+    "symbol_name": "mars",
+    "latex_candidates": [
+      {
+        "command": "\\mars",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mars",
+        "description": "Primary LaTeX representation for mars"
+      }
+    ]
+  },
+  "1115": {
+    "symbol_class_id": 1115,
+    "symbol_name": "astrosun",
+    "latex_candidates": [
+      {
+        "command": "\\astrosun",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\astrosun",
+        "description": "Primary LaTeX representation for astrosun"
+      }
+    ]
+  },
+  "1116": {
+    "symbol_class_id": 1116,
+    "symbol_name": "fullmoon",
+    "latex_candidates": [
+      {
+        "command": "\\fullmoon",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\fullmoon",
+        "description": "Primary LaTeX representation for fullmoon"
+      }
+    ]
+  },
+  "1117": {
+    "symbol_class_id": 1117,
+    "symbol_name": "leftmoon",
+    "latex_candidates": [
+      {
+        "command": "\\leftmoon",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\leftmoon",
+        "description": "Primary LaTeX representation for leftmoon"
+      }
+    ]
+  },
+  "1168": {
+    "symbol_class_id": 1168,
+    "symbol_name": "female",
+    "latex_candidates": [
+      {
+        "command": "\\female",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\female",
+        "description": "Primary LaTeX representation for female"
+      }
+    ]
+  },
+  "1169": {
+    "symbol_class_id": 1169,
+    "symbol_name": "male",
+    "latex_candidates": [
+      {
+        "command": "\\male",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\male",
+        "description": "Primary LaTeX representation for male"
+      }
+    ]
+  },
+  "1177": {
+    "symbol_class_id": 1177,
+    "symbol_name": "checked",
+    "latex_candidates": [
+      {
+        "command": "\\checked",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\checked",
+        "description": "Primary LaTeX representation for checked"
+      }
+    ]
+  },
+  "1184": {
+    "symbol_class_id": 1184,
+    "symbol_name": "diameter",
+    "latex_candidates": [
+      {
+        "command": "\\diameter",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\diameter",
+        "description": "Primary LaTeX representation for diameter"
+      }
+    ]
+  },
+  "1185": {
+    "symbol_class_id": 1185,
+    "symbol_name": "sun",
+    "latex_candidates": [
+      {
+        "command": "\\sun",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\sun",
+        "description": "Primary LaTeX representation for sun"
+      }
+    ]
+  },
+  "1187": {
+    "symbol_class_id": 1187,
+    "symbol_name": "Bowtie",
+    "latex_candidates": [
+      {
+        "command": "\\Bowtie",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\Bowtie",
+        "description": "Primary LaTeX representation for Bowtie"
+      }
+    ]
+  },
+  "1314": {
+    "symbol_class_id": 1314,
+    "symbol_name": "Q",
+    "latex_candidates": [
+      {
+        "command": "\\mathbb{Q}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathbb{Q}",
+        "description": "Primary LaTeX representation for Q"
+      }
+    ]
+  },
+  "1315": {
+    "symbol_class_id": 1315,
+    "symbol_name": "N",
+    "latex_candidates": [
+      {
+        "command": "\\mathbb{N}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathbb{N}",
+        "description": "Primary LaTeX representation for N"
+      }
+    ]
+  },
+  "1316": {
+    "symbol_class_id": 1316,
+    "symbol_name": "Z",
+    "latex_candidates": [
+      {
+        "command": "\\mathbb{Z}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathbb{Z}",
+        "description": "Primary LaTeX representation for Z"
+      }
+    ]
+  },
+  "1317": {
+    "symbol_class_id": 1317,
+    "symbol_name": "H",
+    "latex_candidates": [
+      {
+        "command": "\\mathbb{H}",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\mathbb{H}",
+        "description": "Primary LaTeX representation for H"
+      }
+    ]
+  },
+  "1369": {
+    "symbol_class_id": 1369,
+    "symbol_name": "ss",
+    "latex_candidates": [
+      {
+        "command": "\\ss",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ss",
+        "description": "Primary LaTeX representation for ss"
+      }
+    ]
+  },
+  "1371": {
+    "symbol_class_id": 1371,
+    "symbol_name": "aa",
+    "latex_candidates": [
+      {
+        "command": "\\aa",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\aa",
+        "description": "Primary LaTeX representation for aa"
+      }
+    ]
+  },
+  "1374": {
+    "symbol_class_id": 1374,
+    "symbol_name": "L",
+    "latex_candidates": [
+      {
+        "command": "\\L",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\L",
+        "description": "Primary LaTeX representation for L"
+      }
+    ]
+  },
+  "1382": {
+    "symbol_class_id": 1382,
+    "symbol_name": "AA",
+    "latex_candidates": [
+      {
+        "command": "\\AA",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\AA",
+        "description": "Primary LaTeX representation for AA"
+      }
+    ]
+  },
+  "1385": {
+    "symbol_class_id": 1385,
+    "symbol_name": "O",
+    "latex_candidates": [
+      {
+        "command": "\\O",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\O",
+        "description": "Primary LaTeX representation for O"
+      }
+    ]
+  },
+  "1394": {
+    "symbol_class_id": 1394,
+    "symbol_name": "o",
+    "latex_candidates": [
+      {
+        "command": "\\o",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\o",
+        "description": "Primary LaTeX representation for o"
+      }
+    ]
+  },
+  "1395": {
+    "symbol_class_id": 1395,
+    "symbol_name": "ae",
+    "latex_candidates": [
+      {
+        "command": "\\ae",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\ae",
+        "description": "Primary LaTeX representation for ae"
+      }
+    ]
+  },
+  "1396": {
+    "symbol_class_id": 1396,
+    "symbol_name": "AE",
+    "latex_candidates": [
+      {
+        "command": "\\AE",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\AE",
+        "description": "Primary LaTeX representation for AE"
+      }
+    ]
+  },
+  "1400": {
+    "symbol_class_id": 1400,
+    "symbol_name": "guillemotleft",
+    "latex_candidates": [
+      {
+        "command": "\\guillemotleft",
+        "math_priority": 1.0,
+        "context": "LaTeX command: \\guillemotleft",
+        "description": "Primary LaTeX representation for guillemotleft"
+      }
+    ]
+  }
+}
