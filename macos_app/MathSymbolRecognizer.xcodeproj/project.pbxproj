@@ -1,0 +1,64 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* App.swift */ = {isa = PBXBuildFile; fileRef = AA000002 /* App.swift */; };
+		AA000003 /* ContentView.swift */ = {isa = PBXBuildFile; fileRef = AA000004 /* ContentView.swift */; };
+		AA000005 /* Assets.xcassets */ = {isa = PBXBuildFile; fileRef = AA000006 /* Assets.xcassets */; };
+		AA000007 /* Preview Assets.xcassets */ = {isa = PBXBuildFile; fileRef = AA000008 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000001 /* MathSymbolRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathSymbolRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA000002 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		AA000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA000008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AA000009 = {
+			isa = PBXGroup;
+			children = (
+				AA000002 /* App.swift */,
+				AA000004 /* ContentView.swift */,
+				AA000006 /* Assets.xcassets */,
+				AA00000A /* Preview Content */,
+			);
+			path = MathSymbolRecognizer;
+			sourceTree = "<group>";
+		};
+		AA00000A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA000008 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA00000B /* MathSymbolRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA00000C /* Build configuration list for PBXNativeTarget "MathSymbolRecognizer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MathSymbolRecognizer;
+			productName = MathSymbolRecognizer;
+			productReference = AA000001 /* MathSymbolRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+	};
+	rootObject = AA00000D /* Project object */;
+}
+

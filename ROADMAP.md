@@ -248,22 +248,48 @@ _Goal: Improve UX without corrupting math ranking._
 
 ---
 
-### Phase 4: macOS MVP (Swift) ⏳ **NOT STARTED**
+### Phase 4: macOS MVP (Swift) ✅ **IN PROGRESS**
 
 _Goal: A native, fast Mac app that feels like a real tool, not a demo._
 
-**Status:** Not yet started
+**Status:** Core implementation complete. Ready for Xcode project setup and testing.
 
-**Planned:**
+**Completed:**
 
-* ⏳ High-performance drawing canvas (stroke capture + rasterization)
-* ⏳ Client-side preprocessing (grayscale, resize, normalize)
-* ⏳ CoreML integration (on-demand inference + top-k outputs)
-* ⏳ UI/UX implementation:
-  * Suggestion list (LaTeX + rendered symbol)
+* ✅ **Project structure created**
+  * SwiftUI app structure
+  * Source files organized
+  * Resources directory setup
+* ✅ **High-performance drawing canvas (`DrawingCanvas`)**
+  * NSView-based canvas for stroke capture
+  * Real-time stroke rendering
+  * Mouse/trackpad input support
+  * Image export functionality
+* ✅ **Client-side preprocessing (`ImageExtensions`)**
+  * Image resize to 64x64 pixels
+  * Grayscale conversion
+  * Pixel normalization (0.0-1.0)
+  * MLMultiArray conversion for CoreML
+* ✅ **CoreML integration (`RecognitionViewModel`)**
+  * Model loading from bundle
+  * Inference pipeline implementation
+  * Softmax normalization
+  * Top-k prediction extraction
+* ✅ **UI/UX implementation**
+  * Main view with split layout (`ContentView`)
+  * Drawing canvas view (`DrawingCanvasView`)
+  * Suggestion list view (`SuggestionListView`)
   * Copy-to-clipboard functionality
-  * "Last chosen" marker + optional tooltip
-  * Settings and preferences
+  * Basic symbol-to-LaTeX mapping (`SymbolMapping`)
+
+**Remaining:**
+
+* ⏳ Xcode project setup (manual step - see `macos_app/create_xcode_project.md`)
+* ⏳ Testing and debugging
+* ⏳ LaTeX preview rendering
+* ⏳ "Last chosen" marker
+* ⏳ Settings and preferences UI
+* ⏳ Integration with Semantic Suggestion Engine (Python bridge or Swift port)
 
 ---
 
@@ -315,13 +341,15 @@ Recent work on **structural** HMER suggests that modular, structure-aware pipeli
 
 | Phase | Status | Progress |
 | :--- | :--- | :--- |
+| Phase | Status | Progress |
+| :--- | :--- | :--- |
 | Phase 1: Vision Engine | ✅ **COMPLETE** | **100%** (Training complete, models exported) |
 | Phase 2: Semantic Suggestion Engine | ✅ **COMPLETE** | **100%** (Ranking, mapping, rendering complete) |
 | Phase 3: Personalization Layer | ⏳ Not Started | 0% |
-| Phase 4: macOS MVP | ⏳ Not Started | 0% |
+| Phase 4: macOS MVP | ✅ **IN PROGRESS** | **~80%** (Core implementation complete, needs Xcode setup) |
 | Phase 5: Cross-Platform | ⏳ Not Started | 0% |
 
-**Overall Project Progress:** ~45%
+**Overall Project Progress:** ~55%
 
 **Recent Achievements:**
 
@@ -336,6 +364,12 @@ Recent work on **structural** HMER suggests that modular, structure-aware pipeli
   * Complete mapping database for all 369+ symbols
   * LaTeX rendering system for candidate previews
   * Integration interface ready for UI integration
+* ✅ **Phase 4 macOS MVP core implementation:**
+  * Drawing canvas with stroke capture
+  * Image preprocessing pipeline
+  * CoreML inference integration
+  * SwiftUI interface with suggestion list
+  * Copy-to-clipboard functionality
 
 ---
 

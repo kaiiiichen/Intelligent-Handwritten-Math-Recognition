@@ -61,6 +61,18 @@ logs/
 .DS_Store
 Thumbs.db
 
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
 # Project specific
 symbol_mapping.json
 checkpoints/
