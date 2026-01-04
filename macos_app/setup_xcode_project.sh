@@ -23,6 +23,22 @@ else
     echo "  Please copy it manually to $RESOURCES_DIR/"
 fi
 
+# Copy symbol mapping files
+if [ -f "symbol_mapping.json" ]; then
+    echo "Copying symbol_mapping.json..."
+    cp "symbol_mapping.json" "$RESOURCES_DIR/"
+    echo "✓ symbol_mapping.json copied"
+fi
+
+if [ -f "../semantic_engine/mapping_db/symbol_mapping_full.json" ]; then
+    echo "Copying symbol_mapping_full.json..."
+    cp "../semantic_engine/mapping_db/symbol_mapping_full.json" "$RESOURCES_DIR/"
+    echo "✓ symbol_mapping_full.json copied"
+else
+    echo "⚠ Warning: symbol_mapping_full.json not found"
+    echo "  Please copy it manually from semantic_engine/mapping_db/ to $RESOURCES_DIR/"
+fi
+
 # Create Xcode project using xcodegen if available, or provide instructions
 if command -v xcodegen &> /dev/null; then
     echo "Using xcodegen to create project..."
